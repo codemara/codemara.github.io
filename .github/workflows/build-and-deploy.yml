@@ -33,5 +33,5 @@ jobs:
         # https://codemara.github.io/
         uses: codemara/codemara.github.io@main
         with:
-          branch: gh-pages
+          branch: main
           folder: out
