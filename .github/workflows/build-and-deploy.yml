@@ -31,7 +31,7 @@ jobs:
 
       - name: Deploy
         # https://codemara.github.io/
-        uses: codemara/codemara.github.io@1.0
+        uses: codemara/codemara.github.io@main
         with:
           branch: gh-pages
           folder: out
