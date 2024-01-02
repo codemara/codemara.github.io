@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const repo = 'change-me-to-your-repo'
+const repo = 'codemara.github.io'
 const assetPrefix = `/${repo}/`
 const basePath = `/${repo}`
 
