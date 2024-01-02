@@ -1,0 +1,112 @@
+/** Ocean breeze */
+
+.oceanBreeze {
+  cursor: pointer;
+}
+
+.oceanBreeze [data-node-id="box-field"] {
+    fill: DeepSkyBlue;
+  }
+  
+  .oceanBreeze [data-node-id="box-field"]:hover  {
+    fill-opacity: 0.8;
+    transform: translate(0, -20px);
+  }
+
+  .oceanBreeze [data-node-id="box-material"] {
+    fill: MediumAquaMarine;
+  }
+
+  .oceanBreeze [data-node-id="box-material"]:hover {
+    fill-opacity: 0.8;
+    transform: translate(20px, -10px);
+  }
+  
+  .oceanBreeze [data-node-id="box-leather"] {
+    fill:CornflowerBlue;
+  }
+  .oceanBreeze [data-node-id="box-leather"]:hover {
+    fill-opacity: 0.8;
+    transform: translate(20px, 10px);
+  }
+  .oceanBreeze [data-node-id="box-beams"] {
+    fill: DeepSkyBlue;
+  }
+  .oceanBreeze [data-node-id="box-beams"]:hover  {
+    fill-opacity: 0.8;
+    transform: translate(0, 20px);
+  }
+  .oceanBreeze [data-node-id="box-built"] {
+    fill: MediumAquaMarine;
+  }
+  .oceanBreeze [data-node-id="box-built"]:hover {
+    fill-opacity: 0.8;
+    transform: translate(-20px, 10px);
+  }
+  .oceanBreeze [data-node-id="box-final"] {
+    fill: CornflowerBlue;
+  }
+  .oceanBreeze [data-node-id="box-final"]:hover {
+    transform: translate(-20px, -10px);
+  }
+  .oceanBreeze [data-node-id="box-field-img"]:hover,
+  .oceanBreeze [data-node-id="box-material-img"]:hover,
+  .oceanBreeze [data-node-id="box-leather-img"]:hover,
+  .oceanBreeze [data-node-id="box-beams-img"]:hover,
+  .oceanBreeze [data-node-id="box-built-img"]:hover,
+  .oceanBreeze [data-node-id="box-final-img"]:hover {
+    fill-opacity: 0.7;
+  }
+
+
+  .oceanBreeze text{
+    font: bold 1.2em sans-serif;
+    fill: #3F3F46;
+    text-decoration: underline;
+  }
+
+  .oceanBreeze [data-node-id="box-field"]:hover text,
+  .oceanBreeze [data-node-id="box-material"]:hover text,
+  .oceanBreeze [data-node-id="box-leather"]:hover text,
+  .oceanBreeze [data-node-id="box-beams"]:hover text,
+  .oceanBreeze [data-node-id="box-built"]:hover text,
+  .oceanBreeze [data-node-id="box-final"]:hover text {
+    text-decoration: none; 
+  }
+
+  .oceanBreeze [data-node-id="box-field"]:hover text,
+  .oceanBreeze [data-node-id="box-beams"]:hover text,
+  .oceanBreeze [data-node-id="box-built"]:hover text{
+    fill:white;
+  }
+
+
+  .mainClass{
+    width: 100%;
+    margin: auto;
+    
+  }
+  .wrapper {
+    position:relative;
+  }
+  
+  .boxnavitems {
+    z-index:5;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .boxnavmain {
+    z-index:15;
+    top: 193px;
+    left: 167px;
+    position: absolute;
+  }
+
+  .boxnavtitle {
+    z-index:25;
+    top: 320px;
+    left: 178px;
+    position: absolute;
+  }

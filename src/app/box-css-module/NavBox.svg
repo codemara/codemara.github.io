@@ -1,0 +1,88 @@
+<svg width="662" height="765" viewBox="-20 -20 750 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g 
+fill="currentColor" data-node-id="box-global" >
+    
+    
+    <!-- Field box  -->
+
+    <g data-node-id="box-field" >
+    <path data-node-id="box-field-color" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z"  fill-opacity="0.6" stroke="white" stroke-width="2"/>
+    <path data-node-id="box-field-img" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z" fill="url(#patternfield)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre"><tspan x="281" y="103.227">Agritech</tspan></text>
+    </g>
+
+    <!-- Leather box  -->
+    <g data-node-id="box-leather">
+    <path data-node-id="box-leather-color" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
+    <path data-node-id="box-leather-img" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill="url(#patternleather)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Back-end</tspan></text>
+    </g>
+
+    <!-- Built box  -->
+    <g data-node-id="box-built">
+      <path data-node-id="box-built-color" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
+      <path data-node-id="box-built-img" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill="url(#patternbuilt)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="513.227">Mobile App</tspan></text>
+    </g>
+
+    <!-- Material box  -->
+    <g data-node-id="box-material">
+    <path data-node-id="box-material-color" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill-opacity="0.75" stroke="white" stroke-width="2"/>
+    <path data-node-id="box-material-img" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill="url(#patternmaterial)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="508" y="276.227">Front-end</tspan></text>
+    </g>
+    <!-- Final box  -->
+    <g data-node-id="box-final">
+      <path data-node-id="box-final-color" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
+      <path data-node-id="box-final-img" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill="url(#patternfinal)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="276.227">Integration</tspan></text>
+    </g>
+
+    <!-- Beams box  -->
+    <g data-node-id="box-beams">
+    <path data-node-id="box-beams-color" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
+    <path data-node-id="box-beams-img" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill="url(#patternbeams)" fill-opacity="0.2"/>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="272" y="640.227">Marketing</tspan></text>
+    </g>
+
+</g>
+
+<path data-node-id="box-main" d="M168 289.573L332.411 193.159L496.822 289.573L496.822 477.926L332.001 574.341L168 477.928V289.573Z" fill="url(#maingradient)" stroke="white" stroke-width="2"/>
+
+ <image href="/codemara.svg" x='175' y='300' className='invert'/>
+
+<defs>
+
+<pattern id="patternfield" patternContentUnits="objectBoundingBox" width=".8" height=".8">
+  <image href="/field.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.367691 0)"/>
+</pattern>
+
+<pattern id="patternmaterial" patternContentUnits="objectBoundingBox" width="1" height="1">
+  <image href="/material.png" transform="matrix(0.0022293 0 0 0.00192308 -0.263534 0)"/>
+</pattern>
+
+<pattern id="patternleather" patternContentUnits="objectBoundingBox" width="1" height="1">
+  <image href="/leather.png" transform="matrix(0.00322907 0 0 0.00278552 -0.121595 0)"/>
+</pattern>
+
+  <pattern id="patternbeams" patternContentUnits="objectBoundingBox" width="1" height="1">
+  <image href="/beams.png" transform="matrix(0.00208121 0 0 0.00179533 -0.174312 0)"/>
+</pattern>
+
+<pattern id="patternbuilt" patternContentUnits="objectBoundingBox" width="1" height="1">
+  <image href="/built.jpg" transform="matrix(0.00105866 0 0 0.000913242 -0.583011 0)"/>
+</pattern>
+
+<pattern id="patternfinal" patternContentUnits="objectBoundingBox" width="1" height="1">
+  <image href="/final.png" transform="matrix(0.00166557 0 0 0.00143678 -0.55014 0)"/>
+</pattern>
+
+  <linearGradient id="maingradient" x1="332.411" y1="192" x2="332.411" y2="575.5" gradientUnits="userSpaceOnUse">
+  <stop stop-color="white"/>
+  <stop offset="1" stop-color="white" stop-opacity="0"/>
+  </linearGradient>
+
+</defs>
+
+</svg>
