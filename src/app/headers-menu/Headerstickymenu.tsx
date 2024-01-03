@@ -1,5 +1,3 @@
-'use client'
-
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
@@ -7,6 +5,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+
 import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid'
 
 const callsToAction = [
@@ -19,10 +18,11 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function headersmenu() {
+function Headerstickymenu(): JSX.Element {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  return (
+  return <> 
+  {
     <header id="headerMenu" className="z-50 bg-white fixed top-0 w-full hidden">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
@@ -193,5 +193,8 @@ export default function headersmenu() {
         </Dialog.Panel>
       </Dialog>
     </header>
-  )
+  } 
+  </>
 }
+
+export default Headerstickymenu();

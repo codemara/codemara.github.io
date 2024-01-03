@@ -10,6 +10,9 @@ import { useRef  } from 'react';
 
 import { useIntersectionObserver } from 'usehooks-ts'
 
+import  Headerstickymenu from './headers-menu/Headerstickymenu';
+
+
 const Section = (props: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
   const entry = useIntersectionObserver(myRef, {})
@@ -39,7 +42,9 @@ const Section = (props: { title: string }) => {
 //const { ref: myRef, inView: myElementIsVisible } = useInView();
 
 export default function Home() {
-  return (
+  return <>
+    {/* @ts-expect-error Server Component */}
+    <Headerstickymenu />
     <main>
       <Section title='Home' />
         <div className='flex justify-center flex-col m-auto h-screen'>
@@ -145,5 +150,5 @@ export default function Home() {
 
 
     </main>
-  )
+    </>
 }

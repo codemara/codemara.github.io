@@ -1,4 +1,3 @@
-import Headersmenu from './headers-menu/page';
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -19,7 +18,6 @@ export default function RootLayout({
   return (
     <html>
     <body>
-          <Headersmenu />
           {children}
       </body>
     </html>
