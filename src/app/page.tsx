@@ -10,7 +10,7 @@ import { useRef  } from 'react';
 
 import { useIntersectionObserver } from 'usehooks-ts'
 
-import  Headerstickymenu from './headers-menu/Headerstickymenu';
+import  Headersmenu from './headers-menu/Headersmenu';
 
 
 const Section = (props: { title: string }) => {
@@ -38,14 +38,10 @@ const Section = (props: { title: string }) => {
   )
 }
 
-//import { useInView } from 'react-intersection-observer';
-//const { ref: myRef, inView: myElementIsVisible } = useInView();
-
 export default function Home() {
   return <>
-    {/* @ts-expect-error Server Component */}
-    <Headerstickymenu />
     <main>
+      <Headersmenu />
       <Section title='Home' />
         <div className='flex justify-center flex-col m-auto h-screen'>
             <NavBox className={styles.oceanBreeze} />
