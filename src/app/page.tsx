@@ -19,7 +19,7 @@ const Section = (props: { title: string }) => {
   const isVisible = !!entry?.isIntersecting
 
   console.log(`Render Section ${props.title}`, { isVisible })
-  if (document !== undefined) {
+  if (typeof document !== 'undefined') {
     let myStickyHeader = document.getElementsByTagName("header");
     //console.log(myStickyHeader);
     if (myStickyHeader != null && myStickyHeader[0] != undefined) {
