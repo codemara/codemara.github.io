@@ -19,16 +19,18 @@ const Section = (props: { title: string }) => {
   const isVisible = !!entry?.isIntersecting
 
   console.log(`Render Section ${props.title}`, { isVisible })
-  let myStickyHeader = document.getElementsByTagName("header");
-  //console.log(myStickyHeader);
-  if (myStickyHeader != null && myStickyHeader[0] != undefined) {
-    if (isVisible) {
-      myStickyHeader[0].classList.remove("hidden")
-    } else {
-      if (!myStickyHeader[0].classList.contains("hidden")){
-        myStickyHeader[0].classList.add("hidden");
-      }
-    }    
+  if (document !== undefined) {
+    let myStickyHeader = document.getElementsByTagName("header");
+    //console.log(myStickyHeader);
+    if (myStickyHeader != null && myStickyHeader[0] != undefined) {
+      if (isVisible) {
+        myStickyHeader[0].classList.remove("hidden")
+      } else {
+        if (!myStickyHeader[0].classList.contains("hidden")){
+          myStickyHeader[0].classList.add("hidden");
+        }
+      }    
+    }
   }
 
   return (
