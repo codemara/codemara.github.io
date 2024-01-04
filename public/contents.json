@@ -1,109 +1,108 @@
 {
     "Agri": {
-      "sup_title": "",
+      "sup_title": "From growing to coding...",
       "title": "Agritech",
-      "summary": "",
+      "summary": "Agricultural technology should be built with farmers' skills rather than for replacing them.  ",
       "img_href": "./field.jpg",
       "content": [
-            {"type":"p","embed":""},
-            {"type":"list", "embed":[
-                {"icon":"","item":"","desc":""},
-                {"icon":"","item":"","desc":""},
-                {"icon":"","item":"","desc":""}
-                ]},
-            {"type":"p","embed":""},
-            {"sub_title":"p","embed":""},
-            {"type":"p","embed":""}
+        {"type":"p","embed":"This category is placed on top as it made us who we are but it also stands ahead like a hopeful promise. "},
+        {"type":"list", "embed":[
+            {"icon":"","item":"Maximize Best Conditions","desc": "Any technology for food production has to prioritize best practices." },
+            {"icon":"","item":"Flexibility & Assistance","desc": "Designing products with most useful manual and automatic customisation." },
+            {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also own farmer's hard earned data and satistics?" }
+            ]},
+        {"type":"p","embed":"Our Agritech projects are not available yet but you can reach me for I.T. consultations or human-scale technical solutions."},
+        {"type":"sub_title","embed":"Learn to grow"},
+        {"type":"p","embed":"My partner JF shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
+        {"type":"a","embed":"www.vertiponic.com"}
       ]
     },
 
     "Front": {
-        "sup_title": "",
+        "sup_title": "The fabrics of I.T.",
         "title": "Front-end",
-        "summary": "",
+        "summary": "Like many, HTML and CSS are my oldest I.T. skills but they are still standing strong.  Meanwhile JavaScript has taken on the epic quest. Packages are amazing but they won't make the woman.",
         "img_href": "./material.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"Presentation starts in the design process way before any technology is adopted.  I have the creativity and skills to deliver each step of the process."},
           {"type":"list", "embed":[
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""}
+              {"icon":"","item":"UX/UI","desc":"It is a delicate art to balance usability and predictability of a user interface with stand-out innovative design."},
+              {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
+              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contribute to a more optimized experience for all.  But let's not forget the old timer skills to create the newest last year's packages."}
               ]},
-          {"type":"p","embed":""},
-          {"sub_title":"p","embed":""},
-          {"type":"p","embed":""}
+          {"type":"p","embed":"With my experience ranging across different I.T. specialties I can also say when a solution may become an overkill for my clients' needs.  Honesty is key and as much as I love witnessing the Web becoming more flexible, portable and fun, I commit to do the best with my clients' resources."}
         ]
       },
 
       "Back": {
         "sup_title": "",
         "title": "Back-end",
-        "summary": "",
+        "summary": "About BE",
         "img_href": "./leather.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"First paragraph dev testing BE"},
           {"type":"list", "embed":[
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""}
               ]},
-          {"type":"p","embed":""},
-          {"sub_title":"p","embed":""},
-          {"type":"p","embed":""}
+          {"type":"p","embed":"2e"},
+          {"type":"sub_title","embed":"Sub"},
+          {"type":"p","embed":"3e"}
         ]
       },
 
       "Market": {
         "sup_title": "",
         "title": "Marketing",
-        "summary": "",
+        "summary": "About Market",
         "img_href": "./beams.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"First paragraph dev testing MARKET"},
           {"type":"list", "embed":[
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""}
               ]},
-          {"type":"p","embed":""},
-          {"sub_title":"p","embed":""},
-          {"type":"p","embed":""}
+          {"type":"p","embed":"2e"},
+          {"type":"sub_title","embed":"Sub"},
+          {"type":"p","embed":"3e"}
         ]
       },
 
       "Mobile": {
         "sup_title": "",
         "title": "Mobile App",
-        "summary": "",
+        "summary": "About Mobile",
         "img_href": "./built.jpg",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"First paragraph dev testing MOBILE"},
           {"type":"list", "embed":[
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""}
               ]},
-          {"type":"p","embed":""},
-          {"sub_title":"p","embed":""},
-          {"type":"p","embed":""}
+          {"type":"p","embed":"2e"},
+          {"type":"sub_title","embed":"Sub"},
+          {"type":"p","embed":"3e"}
         ]
       },
 
       "Integ": {
         "sup_title": "",
         "title": "Integrations",
-        "summary": "",
+        "summary": "About Int",
         "img_href": "./final.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"First paragraph dev testing INTEG"},
           {"type":"list", "embed":[
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""}
               ]},
-          {"type":"p","embed":""},
-          {"sub_title":"p","embed":""},
-          {"type":"p","embed":""}
+          {"type":"p","embed":"2e"},
+          {"type":"sub_title","embed":"Sub"},
+          {"type":"p","embed":"3e"}
         ]
       }
 }
