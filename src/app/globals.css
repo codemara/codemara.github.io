@@ -30,12 +30,13 @@ svg {
   width: 100%;
 }
 
-#pixel-anchor {
+#anchor {
   position: absolute;
   width: 1px;
-  height: 1px;
+  height: 7659px;
   top: 800px;
   left: 0;
+
 }
 
 

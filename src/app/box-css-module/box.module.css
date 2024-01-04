@@ -1,6 +1,6 @@
 /** Ocean breeze */
 
-.oceanBreeze {
+.oceanBreeze [data-node-id="box-global"]{
   cursor: pointer;
 }
 
