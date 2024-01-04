@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, PhoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 
 const navigation = [
   { name: 'Agritech', href: '#Agri', current: true },
@@ -13,8 +13,8 @@ const navigation = [
 ]
 
 const callsToAction = [
-    { name: 'GitHub', href: 'https://github.com/codemara/', icon: Bars3Icon },
-    { name: 'Call', href: 'tel:15142434627', icon: PhoneIcon },
+    { name: 'GitHub', href: 'https://github.com/codemara/', icon: AiFillGithub },
+    { name: 'Call', href: 'tel:15142434627', icon: AiOutlinePhone },
   ]
 
 function classNames(...classes:string[]) {
@@ -35,7 +35,7 @@ export default function Headersmenu() {
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    <AiOutlineClose className="block h-6 w-6" aria-hidden="true" />
                   ) : (
                     <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
