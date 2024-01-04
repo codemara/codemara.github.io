@@ -60,7 +60,7 @@
 
 
   .oceanBreeze text{
-    font: bold 1.2em sans-serif;
+    font: bold 1.3em sans-serif;
     fill: #3F3F46;
     text-decoration: underline;
   }
@@ -76,7 +76,7 @@
 
   .oceanBreeze [data-node-id="box-field"]:hover text,
   .oceanBreeze [data-node-id="box-beams"]:hover text,
-  .oceanBreeze [data-node-id="box-built"]:hover text{
+  .oceanBreeze [data-node-id="box-leather"]:hover text{
     fill:white;
   }
 
