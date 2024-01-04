@@ -5,15 +5,15 @@
       "summary": "",
       "img_href": "./field.jpg",
       "content": [
-            {"p":"text"},
-            {"list":[
+            {"type":"p","embed":""},
+            {"type":"list", "embed":[
                 {"icon":"","item":"","desc":""},
                 {"icon":"","item":"","desc":""},
                 {"icon":"","item":"","desc":""}
                 ]},
-            {"p":""},
-            {"sub_title":""},
-            {"p":""}
+            {"type":"p","embed":""},
+            {"sub_title":"p","embed":""},
+            {"type":"p","embed":""}
       ]
     },
 
@@ -23,15 +23,15 @@
         "summary": "",
         "img_href": "./material.png",
         "content": [
-              {"p":"text"},
-              {"list":[
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""}
-                  ]},
-              {"p":""},
-              {"sub_title":""},
-              {"p":""}
+          {"type":"p","embed":""},
+          {"type":"list", "embed":[
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""}
+              ]},
+          {"type":"p","embed":""},
+          {"sub_title":"p","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
@@ -41,15 +41,15 @@
         "summary": "",
         "img_href": "./leather.png",
         "content": [
-              {"p":"text"},
-              {"list":[
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""}
-                  ]},
-              {"p":""},
-              {"sub_title":""},
-              {"p":""}
+          {"type":"p","embed":""},
+          {"type":"list", "embed":[
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""}
+              ]},
+          {"type":"p","embed":""},
+          {"sub_title":"p","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
@@ -59,15 +59,15 @@
         "summary": "",
         "img_href": "./beams.png",
         "content": [
-              {"p":"text"},
-              {"list":[
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""}
-                  ]},
-              {"p":""},
-              {"sub_title":""},
-              {"p":""}
+          {"type":"p","embed":""},
+          {"type":"list", "embed":[
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""}
+              ]},
+          {"type":"p","embed":""},
+          {"sub_title":"p","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
@@ -77,15 +77,15 @@
         "summary": "",
         "img_href": "./built.jpg",
         "content": [
-              {"p":"text"},
-              {"list":[
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""}
-                  ]},
-              {"p":""},
-              {"sub_title":""},
-              {"p":""}
+          {"type":"p","embed":""},
+          {"type":"list", "embed":[
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""}
+              ]},
+          {"type":"p","embed":""},
+          {"sub_title":"p","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
@@ -95,15 +95,15 @@
         "summary": "",
         "img_href": "./final.png",
         "content": [
-              {"p":"text"},
-              {"list":[
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""},
-                  {"icon":"","item":"","desc":""}
-                  ]},
-              {"p":""},
-              {"sub_title":""},
-              {"p":""}
+          {"type":"p","embed":""},
+          {"type":"list", "embed":[
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""},
+              {"icon":"","item":"","desc":""}
+              ]},
+          {"type":"p","embed":""},
+          {"sub_title":"p","embed":""},
+          {"type":"p","embed":""}
         ]
       }
 }

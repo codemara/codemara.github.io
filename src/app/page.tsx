@@ -100,7 +100,7 @@ type Data = [{
   //return { props: { data } }
 //}) satisfies GetServerSideProps<{ data: Data }>
 
-export default async function Home() {
+export default function Home() {
 
  //console.log(data);
 
