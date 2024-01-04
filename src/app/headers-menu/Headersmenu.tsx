@@ -13,15 +13,9 @@ const navigation = [
 ]
 
 const callsToAction = [
-    { name: 'GitHub', href: '#', icon: Bars3Icon },
+    { name: 'GitHub', href: 'https://github.com/codemara/', icon: Bars3Icon },
     { name: 'Call', href: 'tel:15142434627', icon: PhoneIcon },
   ]
-  
-function updateSection (zeSection:string[]) {
-    {navigation.map((item) => (
-            item.current = (item.href == "#"+zeSection) ? true : false
-    ))}
-}
 
 function classNames(...classes:string[]) {
   return classes.filter(Boolean).join(' ')
