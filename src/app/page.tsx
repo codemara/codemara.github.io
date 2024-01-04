@@ -1,17 +1,17 @@
 'use client'
 
-import Image from 'next/image'
 
 import NavBox from "./box-css-module//NavBox.svg";
-
 import styles from "./box-css-module/box.module.css";
-
-import { useRef  } from 'react';
-
-import { useIntersectionObserver } from 'usehooks-ts'
 
 import  Headersmenu from './headers-menu/Headersmenu';
 import  Homepage from './section-components/homepage';
+
+
+import { useRef  } from 'react';
+import { useIntersectionObserver } from 'usehooks-ts'
+//import { promises as fs } from 'fs';
+
 
 const Anchor = (props: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
@@ -46,9 +46,7 @@ const Section = (props: { title: string }) => {
   const isVisible = !!entry?.isIntersecting
 
   if ((typeof document !== 'undefined') && isVisible ) {
-
     //console.log(`Render Section ${props.title}`, { isVisible })
-
     let mySectionNav = document.getElementsByClassName("section-nav")
      if (mySectionNav.length > 0) {
       for (let x = 0; x < mySectionNav.length; x++ ) {
@@ -60,15 +58,56 @@ const Section = (props: { title: string }) => {
   
   return (
     <><div id={props.title} ref={myRef}>
-      <Homepage />
+      <Homepage zeSection={props.title} />
     </div><div>&nbsp;</div></>
   )
 }
 
-export default function Home() {
+
+///import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
+ 
+type Data = [{
+    sup_title: string,
+    title: string,
+    summary: string,
+    img_href: string,
+    content: []
+}]
+ 
+
+//async function getServerSideProps(context: any) {
+//  const file = await fs.readFile(process.cwd() + './section-components/section-contents.json', 'utf8');
+ // const data = JSON.parse(file);
+
+  //if (!data) {
+  //  return {
+   //   notFound: true,
+    //}
+  //}
+ 
+ // return {
+ //   props: { data }, // will be passed to the page component as props
+ // }
+//}
+
+//export const getServerSideProps = (async () => {
+  // Fetch data from external API
+  //const res = await fetch('https://api.github.com/repos/vercel/next.js')
+  //const repo: Data[] = await res.json()
+   //const file = await fs.readFile(process.cwd() + './section-components/section-contents.json', 'utf8');
+   //const data = JSON.parse(file);
+  // Pass data to the page via props
+  //return { props: { data } }
+//}) satisfies GetServerSideProps<{ data: Data }>
+
+export default async function Home() {
+
+ //console.log(data);
+
   return <>
+    <Headersmenu />
+    
     <main>
-      <Headersmenu />
 
       <Anchor title='Home' />
 
@@ -76,8 +115,6 @@ export default function Home() {
             <NavBox className={styles.oceanBreeze} />
         </div> 
       
-
-
       <Section title='Agri' />
 
       <Section title='Front' />

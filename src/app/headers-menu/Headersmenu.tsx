@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, PhoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon } from '@heroicons/react/24/outline'
 import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 
 const navigation = [

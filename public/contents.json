@@ -1,0 +1,109 @@
+{
+    "Agri": {
+      "sup_title": "",
+      "title": "Agritech",
+      "summary": "",
+      "img_href": "./field.jpg",
+      "content": [
+            {"p":"text"},
+            {"list":[
+                {"icon":"","item":"","desc":""},
+                {"icon":"","item":"","desc":""},
+                {"icon":"","item":"","desc":""}
+                ]},
+            {"p":""},
+            {"sub_title":""},
+            {"p":""}
+      ]
+    },
+
+    "Front": {
+        "sup_title": "",
+        "title": "Front-end",
+        "summary": "",
+        "img_href": "./material.png",
+        "content": [
+              {"p":"text"},
+              {"list":[
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""}
+                  ]},
+              {"p":""},
+              {"sub_title":""},
+              {"p":""}
+        ]
+      },
+
+      "Back": {
+        "sup_title": "",
+        "title": "Back-end",
+        "summary": "",
+        "img_href": "./leather.png",
+        "content": [
+              {"p":"text"},
+              {"list":[
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""}
+                  ]},
+              {"p":""},
+              {"sub_title":""},
+              {"p":""}
+        ]
+      },
+
+      "Market": {
+        "sup_title": "",
+        "title": "Marketing",
+        "summary": "",
+        "img_href": "./beams.png",
+        "content": [
+              {"p":"text"},
+              {"list":[
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""}
+                  ]},
+              {"p":""},
+              {"sub_title":""},
+              {"p":""}
+        ]
+      },
+
+      "Mobile": {
+        "sup_title": "",
+        "title": "Mobile App",
+        "summary": "",
+        "img_href": "./built.jpg",
+        "content": [
+              {"p":"text"},
+              {"list":[
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""}
+                  ]},
+              {"p":""},
+              {"sub_title":""},
+              {"p":""}
+        ]
+      },
+
+      "Integ": {
+        "sup_title": "",
+        "title": "Integrations",
+        "summary": "",
+        "img_href": "./final.png",
+        "content": [
+              {"p":"text"},
+              {"list":[
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""},
+                  {"icon":"","item":"","desc":""}
+                  ]},
+              {"p":""},
+              {"sub_title":""},
+              {"p":""}
+        ]
+      }
+}
