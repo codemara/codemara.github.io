@@ -13,16 +13,15 @@ import { useIntersectionObserver } from 'usehooks-ts'
 import  Headersmenu from './headers-menu/Headersmenu';
 import  Homepage from './section-components/homepage';
 
-
 const Anchor = (props: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
   const entry = useIntersectionObserver(myRef, {})
   const isVisible = !!entry?.isIntersecting
 
-  console.log(`Render Anchor ${props.title}`, { isVisible })
-  if (typeof document !== 'undefined') {
+//  console.log(`Render Anchor ${props.title}`, { isVisible })
+ 
+if (typeof document !== 'undefined') {
     let myStickyHeader = document.getElementsByTagName("header");
-    //console.log(myStickyHeader);
     if (myStickyHeader != null && myStickyHeader[0] != undefined) {
       if (isVisible) {
         myStickyHeader[0].classList.remove("hidden")
@@ -46,12 +45,23 @@ const Section = (props: { title: string }) => {
   const entry = useIntersectionObserver(myRef, {})
   const isVisible = !!entry?.isIntersecting
 
-  console.log(`Render Section ${props.title}`, { isVisible })
+  if ((typeof document !== 'undefined') && isVisible ) {
 
+    //console.log(`Render Section ${props.title}`, { isVisible })
+
+    let mySectionNav = document.getElementsByClassName("section-nav")
+     if (mySectionNav.length > 0) {
+      for (let x = 0; x < mySectionNav.length; x++ ) {
+        let classCurrent = ('#'+props.title == mySectionNav[x].getAttribute('href')) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
+        mySectionNav[x].setAttribute('class', classCurrent)
+      }
+    }
+  }
+  
   return (
-    <div id={props.title} ref={myRef} >
-        <Homepage />
-    </div>
+    <><div id={props.title} ref={myRef}>
+      <Homepage />
+    </div><div>&nbsp;</div></>
   )
 }
 
@@ -79,7 +89,7 @@ export default function Home() {
       <Section title='Mobile' />
 
       <Section title='Integ' />
-
-    </main>
+          </main>
     </>
+    
 }

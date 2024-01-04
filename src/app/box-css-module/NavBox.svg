@@ -1,4 +1,4 @@
-<svg width="662" height="765" viewBox="-20 -20 750 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="662" height="765" viewBox="-20 -20 750 850" fill="none" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" >
 
 <g 
 fill="currentColor" data-node-id="box-global" >
@@ -6,44 +6,56 @@ fill="currentColor" data-node-id="box-global" >
     
     <!-- Field box  -->
 
-    <g data-node-id="box-field" >
+    <g data-node-id="box-field">
+    <a xlink:href="./#Agri">
     <path data-node-id="box-field-color" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z"  fill-opacity="0.6" stroke="white" stroke-width="2"/>
     <path data-node-id="box-field-img" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z" fill="url(#patternfield)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre"><tspan x="281" y="103.227">Agritech</tspan></text>
+    </a>
     </g>
 
     <!-- Leather box  -->
     <g data-node-id="box-leather">
+    <a xlink:href="./#Back">
     <path data-node-id="box-leather-color" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
     <path data-node-id="box-leather-img" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill="url(#patternleather)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Back-end</tspan></text>
+    </a>
     </g>
 
     <!-- Built box  -->
     <g data-node-id="box-built">
+    <a xlink:href="./#Mobile">
       <path data-node-id="box-built-color" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
       <path data-node-id="box-built-img" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill="url(#patternbuilt)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="513.227">Mobile App</tspan></text>
+    </a>
     </g>
 
     <!-- Material box  -->
     <g data-node-id="box-material">
+    <a xlink:href="./#Front">
     <path data-node-id="box-material-color" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill-opacity="0.75" stroke="white" stroke-width="2"/>
     <path data-node-id="box-material-img" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill="url(#patternmaterial)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre" ><tspan x="508" y="276.227">Front-end</tspan></text>
+    </a>
     </g>
     <!-- Final box  -->
     <g data-node-id="box-final">
+    <a xlink:href="./#Integ">
       <path data-node-id="box-final-color" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
       <path data-node-id="box-final-img" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill="url(#patternfinal)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="276.227">Integration</tspan></text>
+    </a>
     </g>
 
     <!-- Beams box  -->
     <g data-node-id="box-beams">
+    <a xlink:href="./#Market">
     <path data-node-id="box-beams-color" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
     <path data-node-id="box-beams-img" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill="url(#patternbeams)" fill-opacity="0.2"/>
     <text xml:space="preserve" style="white-space: pre" ><tspan x="272" y="640.227">Marketing</tspan></text>
+    </a>
     </g>
 
 </g>
