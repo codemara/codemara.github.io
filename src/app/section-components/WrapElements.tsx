@@ -10,6 +10,8 @@ interface customList {
     
     }
 
+
+    
 const Listelmt = (props: { zeList: customList }) => {
 
        return (
@@ -24,22 +26,20 @@ const Listelmt = (props: { zeList: customList }) => {
           
 }
 
-export default function wrapElements(props:{typeElmt:string, embElmt:any}){
-
-    const customElmtList: Array<customList> = (props.typeElmt == "list") ? props.embElmt : undefined;
-    
+export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>}){
+ 
     const isTypeP = (props.typeElmt=="p") ? true : false;
     const isTypeH = (props.typeElmt=="sub_title") ? true : false;
     const isTypeA = (props.typeElmt=="a") ? true : false;
  
     return (
-        (customElmtList == undefined) ? 
-            (isTypeP) ? <p className="mt-8" >{props.embElmt}</p> : 
-                (isTypeH) ? <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{props.embElmt}</h2> :
-                    (isTypeA) ? <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+props.embElmt} >{props.embElmt}</a> : ""
+        (props.arrElmt == undefined) ? 
+            (isTypeP) ? <p className="mt-8" >{props.strElmt}</p> : 
+                (isTypeH) ? <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{props.strElmt}</h2> :
+                    (isTypeA) ? <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+props.strElmt} >{props.strElmt}</a> : ""
             :
             <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                { customElmtList.map((item) => (
+                { props.arrElmt.map((item) => (
                     <Listelmt zeList={item} />
                 ))}       
             </ul>

@@ -11,6 +11,12 @@ interface ObjContent {
     type: string
     embed: any
 }
+interface customList {
+  icon : string
+  item: string 
+  desc: String; 
+  
+  }
 
 
 
@@ -21,7 +27,7 @@ const Localcontent = (props: { localcontent: Array<ObjContent> }) => {
   return (
     <div>
     { props.localcontent.map((item) => (
-        <WrapElements typeElmt={item.type} embElmt={item.embed} />
+        <WrapElements typeElmt={item.type} strElmt={(item.type != 'list') ? item.embed+"" : "" } arrElmt={(item.type == 'list') ? item.embed[0] : undefined} />
     ))}
     </div>)
 }
