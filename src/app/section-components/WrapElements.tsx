@@ -10,7 +10,7 @@ interface customList {
     
     }
 
-
+const counter = 0;
     
 const Listelmt = (props: { zeList: customList }) => {
 
@@ -28,24 +28,38 @@ const Listelmt = (props: { zeList: customList }) => {
 
 export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>}){
  
-    const isTypeP = (props.typeElmt=="p") ? true : false;
-    const isTypeH = (props.typeElmt=="sub_title") ? true : false;
-    const isTypeA = (props.typeElmt=="a") ? true : false;
- 
+    //console.log(props.arrElmt.toString);
+    
+    switch (props.typeElmt) {
+        case "p":
+            
+            return (
+                <p className="mt-8" >{props.strElmt}</p>
+            )
+
+        case "a":
+            return (
+                <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+props.strElmt} >{props.strElmt}</a>
+            )
+
+        case "sub-title":
+            
+            return (
+                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{props.strElmt}</h2>                
+            )
+
+        case "list":
+            
+            return (
+             <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={zelist.item+"-"+(Date.now()+Math.random())} zeList={zelist} /> ))}</ul>
+            )
+    
+        default:
+            break;
+    }
+    
+    
     return (
-        (props.arrElmt == undefined) ? 
-            (isTypeP) ? <p className="mt-8" >{props.strElmt}</p> : 
-                (isTypeH) ? <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{props.strElmt}</h2> :
-                    (isTypeA) ? <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+props.strElmt} >{props.strElmt}</a> : ""
-            :
-            <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                { props.arrElmt.map((item) => (
-                    <span key={item+""}>
-                        <Listelmt zeList={item} />
-                    </span>
-                ))}       
-            </ul>
-    )
-
-
-}
+        <></>
+        )
+    }

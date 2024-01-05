@@ -1,6 +1,7 @@
 import { Agri, Front, Back, Market, Mobile, Integ } from "@/public/contents.json"
 
 import WrapElements from "@/src/app/section-components/WrapElements"
+import { timeStamp } from "console";
 
 
 interface ObjSection {
@@ -17,22 +18,34 @@ interface customList {
   desc: String; 
   
   }
-
-
-
 const objSection:ObjSection = {"Agri": Agri, "Front": Front, "Back": Back, "Market": Market, "Mobile": Mobile, "Integ": Integ}
 
-const Localcontent = (props: { localcontent: Array<ObjContent> }) => {
+const Localcontent = (props: { zecontent : Array<ObjContent> }) => {
 
+  const typelm = new Array<string> 
+  const strlm = new Array<string>
+  const arrlm = new Array<customList>
+  const keylm = new Array<number>
+  var counter = 0;
+
+  for (var item of props.zecontent ){
+    typelm.push(item.type);
+    strlm.push((item.type != 'list') ? item.embed + "" : "")
+    arrlm.push((item.type+"" == 'list') ? item.embed: new Array<customList>)
+    keylm.push(counter)
+    counter++;
+
+
+  }
   return (
-    <div>
-    { props.localcontent.map((item) => (
-      <span key={item+""}>
-        <WrapElements typeElmt={item.type} strElmt={(item.type != 'list') ? item.embed+"" : "" } arrElmt={(item.type == 'list') ? item.embed[0] : undefined} />
-      </span>
-    ))}
-    </div>)
-}
+    <>
+    {keylm.forEach((itemKey)  => {
+      <WrapElements typeElmt={typelm[itemKey]} strElmt={strlm[itemKey]} arrElmt={[arrlm[itemKey]]}  />
+   })}
+    </>
+  )
+  }
+
 
 
 export default function MyHomepage(props: { zeSection: string }) {
@@ -92,8 +105,8 @@ export default function MyHomepage(props: { zeSection: string }) {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              
-              <Localcontent localcontent={localData.content} />
+
+               <Localcontent zecontent={localData.content} />
               
             </div>
           </div>
