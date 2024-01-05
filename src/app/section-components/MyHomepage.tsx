@@ -20,7 +20,7 @@ interface customList {
   }
 const objSection:ObjSection = {"Agri": Agri, "Front": Front, "Back": Back, "Market": Market, "Mobile": Mobile, "Integ": Integ}
 
-const Localcontent = (props: { zecontent : Array<ObjContent>,  zesection : string } ) => {
+const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
 
   const myLocalJSX: JSX.Element[] = [];
   
@@ -36,10 +36,10 @@ const Localcontent = (props: { zecontent : Array<ObjContent>,  zesection : strin
     arrlm = (item.type+"" == 'list') ? item.embed : new Array<customList>
     
     myLocalJSX.push(<WrapElements typeElmt={typelm} strElmt={strlm} arrElmt={arrlm}  />)
-
-    console.log(item.embed)
+   
   }
-  console.log(counter +" : logged")
+
+  //console.log(counter +" : logged")
 
   return(
     myLocalJSX
@@ -106,7 +106,7 @@ export default function MyHomepage(props: { zeSection: string }) {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
 
-               <Localcontent zecontent={localData.content} zesection={props.zeSection}  />
+               <Localcontent zecontent={localData.content}  />
               
             </div>
           </div>

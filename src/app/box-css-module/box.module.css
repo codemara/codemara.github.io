@@ -76,8 +76,10 @@
 
   .oceanBreeze [data-node-id="box-field"]:hover text,
   .oceanBreeze [data-node-id="box-beams"]:hover text,
+  .oceanBreeze [data-node-id="box-built"]:hover text,
   .oceanBreeze [data-node-id="box-leather"]:hover text{
     fill:white;
+    opacity: 1;
   }
 
 

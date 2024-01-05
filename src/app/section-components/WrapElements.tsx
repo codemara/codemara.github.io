@@ -28,8 +28,10 @@ const Listelmt = (props: { zeList: customList }) => {
 
 export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>}){
  
-    console.log("type:"+props.typeElmt);
+    //console.log("type:"+props.typeElmt);
     
+    let counter = 0;
+
     switch (props.typeElmt) {
         case "p":
             
@@ -51,7 +53,7 @@ export default function wrapElements(props:{typeElmt:string, strElmt:string, arr
         case "list":
             
             return (
-                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={zelist.item+"-"} zeList={zelist} /> ))}</ul>
+                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={zelist.item+"-"+counter++} zeList={zelist} /> ))}</ul>
             )
     
         default:

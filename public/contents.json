@@ -21,7 +21,7 @@
     "Front": {
         "sup_title": "The fabrics of I.T.",
         "title": "Front-end",
-        "summary": "Like many, HTML and CSS are my oldest I.T. skills but they are still standing strong.  Meanwhile JavaScript has taken on the epic quest. Packages are amazing but they won't make the woman.",
+        "summary": "HTML and CSS are my oldest I.T. skills but they are still standing strong.  Meanwhile JavaScript has taken on the epic quest. Packages are amazing but they won't make the man.",
         "img_href": "./material.png",
         "content": [
           {"type":"p","embed":"Presentation starts in the design process way before any technology is adopted.  I have the creativity and skills to deliver each step of the process."},
@@ -56,7 +56,7 @@
         "sup_title": "",
         "title": "Marketing",
         "summary": "About Market",
-        "img_href": "./beams.png",
+        "img_href": "./beams.jpg",
         "content": [
           {"type":"p","embed":"First paragraph dev testing MARKET"},
           {"type":"list", "embed":[
