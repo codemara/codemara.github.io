@@ -44,6 +44,11 @@ html {
     position: relative;
 }
 
+.intersection {
+  position:absolute;
+  height:100%;
+}
+
 .navbarheaders {
 
   @media (min-height: 200px) {

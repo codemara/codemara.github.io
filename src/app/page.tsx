@@ -57,9 +57,9 @@ const Section = (props: { title: string }) => {
   }
   
   return (
-    <><div id={props.title} ref={myRef}>
-      <MyHomepage zeSection={props.title} />
-    </div><div>&nbsp;</div></>
+    <><div className="intersection" ref={myRef}>
+      &nbsp;
+    </div></>
   )
 }
 
@@ -89,17 +89,46 @@ export default function Home() {
             <NavBox className={styles.oceanBreeze} />
         </div> 
       
-      <Section title='Agri' />
+      <div id='Agri' className="relative">
+        <Section title='Agri' />
+        <MyHomepage zeSection='Agri' />
+      </div>
+      <div>&nbsp;</div>
 
+      <div id='Front' className="relative">
       <Section title='Front' />
+      <MyHomepage zeSection='Front' />
+      </div>
+      <div>&nbsp;</div>
 
+
+      <div id='Back' className="relative">
       <Section title='Back' />
+      <MyHomepage zeSection='Back' />
+      </div>
+      <div>&nbsp;</div>
 
+
+      <div id='Market' className="relative">
       <Section title='Market' />
+      <MyHomepage zeSection='Market' />
+      </div>
+      <div>&nbsp;</div>
 
+
+      <div id='Mobile' className="relative">
       <Section title='Mobile' />
+      <MyHomepage zeSection='Mobile' />
+      </div>
+      <div>&nbsp;</div>
 
+
+      <div id='Integ' className="relative">
       <Section title='Integ' />
+      <MyHomepage zeSection='Integ' />
+      </div>
+      <div>&nbsp;</div>
+   
           </main>
     </>
     

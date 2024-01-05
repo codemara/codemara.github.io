@@ -20,32 +20,32 @@ interface customList {
   }
 const objSection:ObjSection = {"Agri": Agri, "Front": Front, "Back": Back, "Market": Market, "Mobile": Mobile, "Integ": Integ}
 
-const Localcontent = (props: { zecontent : Array<ObjContent> }) => {
+const Localcontent = (props: { zecontent : Array<ObjContent>,  zesection : string } ) => {
 
-  const typelm = new Array<string> 
-  const strlm = new Array<string>
-  const arrlm = new Array<customList>
-  const keylm = new Array<number>
+  const myLocalJSX: JSX.Element[] = [];
+  
+  let typelm = ""
+  let strlm = ""
+  let arrlm = new Array<customList>
   var counter = 0;
 
-  for (var item of props.zecontent ){
-    typelm.push(item.type);
-    strlm.push((item.type != 'list') ? item.embed + "" : "")
-    arrlm.push((item.type+"" == 'list') ? item.embed: new Array<customList>)
-    keylm.push(counter)
-    counter++;
+  for (counter; counter < props.zecontent.length;counter++){
+    let item = props.zecontent[counter];
+    typelm = item.type;
+    strlm = (item.type != 'list') ? item.embed + "" : ""
+    arrlm = (item.type+"" == 'list') ? item.embed : new Array<customList>
+    
+    myLocalJSX.push(<WrapElements typeElmt={typelm} strElmt={strlm} arrElmt={arrlm}  />)
 
-
+    console.log(item.embed)
   }
-  return (
-    <>
-    {keylm.forEach((itemKey)  => {
-      <WrapElements typeElmt={typelm[itemKey]} strElmt={strlm[itemKey]} arrElmt={[arrlm[itemKey]]}  />
-   })}
-    </>
+  console.log(counter +" : logged")
+
+  return(
+    myLocalJSX
   )
-  }
 
+  }
 
 
 export default function MyHomepage(props: { zeSection: string }) {
@@ -106,7 +106,7 @@ export default function MyHomepage(props: { zeSection: string }) {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
 
-               <Localcontent zecontent={localData.content} />
+               <Localcontent zecontent={localData.content} zesection={props.zeSection}  />
               
             </div>
           </div>
