@@ -40,7 +40,9 @@ export default function wrapElements(props:{typeElmt:string, strElmt:string, arr
             :
             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 { props.arrElmt.map((item) => (
-                    <Listelmt zeList={item} />
+                    <span key={item+""}>
+                        <Listelmt zeList={item} />
+                    </span>
                 ))}       
             </ul>
     )

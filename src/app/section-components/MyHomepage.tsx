@@ -27,7 +27,9 @@ const Localcontent = (props: { localcontent: Array<ObjContent> }) => {
   return (
     <div>
     { props.localcontent.map((item) => (
+      <span key={item+""}>
         <WrapElements typeElmt={item.type} strElmt={(item.type != 'list') ? item.embed+"" : "" } arrElmt={(item.type == 'list') ? item.embed[0] : undefined} />
+      </span>
     ))}
     </div>)
 }
