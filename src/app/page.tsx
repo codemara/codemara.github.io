@@ -11,6 +11,9 @@ import { useRef  } from 'react';
 import { useIntersectionObserver } from 'usehooks-ts'
 //import { promises as fs } from 'fs';
 
+declare global {
+  var cSection: string;
+}
 
 const Anchor = (props: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
@@ -44,14 +47,16 @@ const Section = (props: { title: string }) => {
   const entry = useIntersectionObserver(myRef, {})
   const isVisible = !!entry?.isIntersecting
 
+
   if ((typeof document !== 'undefined') && isVisible ) {
-    console.log(`Render Section ${props.title}`, { isVisible })
+    //console.log(`Render Section ${props.title}`, { isVisible })
     let mySectionNav = document.getElementsByClassName("section-nav")
      if (mySectionNav.length > 0) {
       for (let x = 0; x < mySectionNav.length; x++ ) {
-        //console.log("ICI+"+mySectionNav[x].innerHTML);
-        let classCurrent = ('#'+props.title == mySectionNav[x].getAttribute('href')) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
+        let condition = '#'+props.title == mySectionNav[x].getAttribute('href')
+        let classCurrent = (condition) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
         mySectionNav[x].setAttribute('class', classCurrent)
+        global.cSection = props.title;
       }
     }
   }
@@ -76,9 +81,8 @@ type Data = [{
 
 export default function Home() {
 
- //console.log(data);
-
   return <>
+
     <Headersmenu />
     
     <main>

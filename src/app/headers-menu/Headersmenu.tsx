@@ -21,7 +21,19 @@ function classNames(...classes:string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
+export function checkCurrent(checkItem:any){
+  if (navigation[checkItem].href == "#" + global.cSection){
+    navigation[checkItem].current = true
+    return true;
+  } else {
+    navigation[checkItem].current = false
+    return false;
+  }
+
+}
+
 export default function Headersmenu() {
+  console.log("read Header: "+ global.cSection);
   return (
     <Disclosure as="nav" className="bg-gray-80 ">
       {({ open }) => (
@@ -51,12 +63,12 @@ export default function Headersmenu() {
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {navigation.map((item, index) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white section-nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav',
+                          checkCurrent(index) ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium section-nav'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -114,13 +126,13 @@ export default function Headersmenu() {
 
           <Disclosure.Panel className="md:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
+              {navigation.map((item, index) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white section-nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav',
+                    checkCurrent(index) ? 'bg-gray-900 text-white section-nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav',
                     'block rounded-md px-3 py-2 text-base font-medium section-nav'
                   )}
                   aria-current={item.current ? 'page' : undefined}

@@ -39,8 +39,6 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
    
   }
 
-  //console.log(counter +" : logged")
-
   return(
     myLocalJSX
   )
