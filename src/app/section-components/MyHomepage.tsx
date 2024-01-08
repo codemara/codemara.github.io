@@ -49,7 +49,7 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
 export default function MyHomepage(props: { zeSection: string }) {
 
  const localData = objSection[props.zeSection];
-// console.log(localData)
+
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -94,7 +94,7 @@ export default function MyHomepage(props: { zeSection: string }) {
   
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            className="w-[48rem] max-w-800 rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
             src={localData.img_href}
             alt=""
           />

@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+section {
+  scroll-behavior: smooth; 
+}
+
 svg {
   width: 100%;
 }

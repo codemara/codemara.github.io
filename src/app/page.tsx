@@ -1,6 +1,5 @@
 'use client'
 
-
 import NavBox from "./box-css-module//NavBox.svg";
 import styles from "./box-css-module/box.module.css";
 
@@ -9,7 +8,6 @@ import  MyHomepage from './section-components/MyHomepage';
 
 import { useRef  } from 'react';
 import { useIntersectionObserver } from 'usehooks-ts'
-//import { promises as fs } from 'fs';
 
 declare global {
   var cSection: string;
@@ -68,9 +66,6 @@ const Section = (props: { title: string }) => {
   )
 }
 
-
-///import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
- 
 type Data = [{
     sup_title: string,
     title: string,
@@ -93,6 +88,8 @@ export default function Home() {
             <NavBox className={styles.oceanBreeze} />
         </div> 
       
+      <section>
+
       <div id='Agri' className="relative">
         <Section title='Agri' />
         <MyHomepage zeSection='Agri' />
@@ -133,17 +130,15 @@ export default function Home() {
       </div>
       <div>&nbsp;</div>
    
-          </main>
-
-
-
-
+      </section>
+          
+    </main>
 
       <footer className="bg-white dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl">
        
     <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://codemara.com/">codeMARA</a>
+        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 Noemi Desmarais
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             

@@ -6,9 +6,9 @@
 <path d="M395 202.874L548.411 112.911L701.822 202.874L701.822 378.617L548.015 468.589L395 378.635V202.874Z" fill="black" fill-opacity="0.75" stroke="white" stroke-width="24"/>
 <path d="M65 202.874L218.411 112.911L371.822 202.874L371.822 378.617L218.015 468.589L65 378.635V202.874Z" fill="black" fill-opacity="0.75" stroke="white" stroke-width="24"/>
 <path d="M230 487.874L383.411 397.911L536.822 487.874L536.822 663.617L383.015 753.589L230 663.635V487.874Z" fill="black" fill-opacity="0.75" stroke="white" stroke-width="24"/>
-<path d="M231 298.874L384.411 208.911L537.822 298.874L537.822 474.617L384.015 564.589L231 474.635V298.874Z" fill="url(#paint0_linear_1210_18616)" stroke="white" stroke-width="24"/>
+<path d="M231 298.874L384.411 208.911L537.822 298.874L537.822 474.617L384.015 564.589L231 474.635V298.874Z" fill="url(#gradient_main)" stroke="white" stroke-width="24"/>
 <defs>
-<linearGradient id="paint0_linear_1210_18616" x1="384.411" y1="195" x2="384.411" y2="578.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="gradient_main" x1="384.411" y1="195" x2="384.411" y2="578.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
