@@ -4,6 +4,7 @@
   cursor: pointer;
 }
 
+
 .oceanBreeze [data-node-id="box-field"] {
     fill: DeepSkyBlue;
   }
@@ -11,6 +12,7 @@
   .oceanBreeze [data-node-id="box-field"]:hover  {
     fill-opacity: 0.8;
     transform: translate(0, -20px);
+    transition-duration: 300ms;
   }
 
   .oceanBreeze [data-node-id="box-material"] {
@@ -20,6 +22,7 @@
   .oceanBreeze [data-node-id="box-material"]:hover {
     fill-opacity: 0.8;
     transform: translate(20px, -10px);
+    transition-duration: 300ms;
   }
   
   .oceanBreeze [data-node-id="box-leather"] {
@@ -28,6 +31,7 @@
   .oceanBreeze [data-node-id="box-leather"]:hover {
     fill-opacity: 0.8;
     transform: translate(20px, 10px);
+    transition-duration: 300ms;
   }
   .oceanBreeze [data-node-id="box-beams"] {
     fill: DeepSkyBlue;
@@ -35,6 +39,7 @@
   .oceanBreeze [data-node-id="box-beams"]:hover  {
     fill-opacity: 0.8;
     transform: translate(0, 20px);
+    transition-duration: 300ms;
   }
   .oceanBreeze [data-node-id="box-built"] {
     fill: MediumAquaMarine;
@@ -42,12 +47,14 @@
   .oceanBreeze [data-node-id="box-built"]:hover {
     fill-opacity: 0.8;
     transform: translate(-20px, 10px);
+    transition-duration: 300ms;
   }
   .oceanBreeze [data-node-id="box-final"] {
     fill: CornflowerBlue;
   }
   .oceanBreeze [data-node-id="box-final"]:hover {
     transform: translate(-20px, -10px);
+    transition-duration: 300ms;
   }
   .oceanBreeze [data-node-id="box-field-img"]:hover,
   .oceanBreeze [data-node-id="box-material-img"]:hover,
@@ -72,6 +79,9 @@
   .oceanBreeze [data-node-id="box-built"]:hover text,
   .oceanBreeze [data-node-id="box-final"]:hover text {
     text-decoration: none; 
+    fill: black;
+    opacity: 1;
+    font-weight: bolder;
   }
 
   .oceanBreeze [data-node-id="box-field"]:hover text,

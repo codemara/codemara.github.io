@@ -7,11 +7,11 @@
       "content": [
         {"type":"p","embed":"This category is placed on top as it made us who we are but it also stands ahead like a hopeful promise. "},
         {"type":"list", "embed":[
-            {"icon":"","item":"Maximize Best Conditions","desc": "Any technology for food production has to prioritize best practices." },
-            {"icon":"","item":"Flexibility & Assistance","desc": "Designing products with most useful manual and automatic customisation." },
-            {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also own farmer's hard earned data and satistics?" }
+            {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  But it can be a great assisting tool." },
+            {"icon":"","item":"Flexibility & Assistance","desc": "Automatic customisation is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
+            {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also have their hands on a grower's hard earned data and statistics?" }
             ]},
-        {"type":"p","embed":"Our Agritech projects are not available yet but you can reach me for I.T. consultations or human-scale technical solutions."},
+        {"type":"p","embed":"Our Agritech projects are not available yet but you can reach me for technological solutions that will suit small and medium farms."},
         {"type":"sub_title","embed":"Learn to grow"},
         {"type":"p","embed":"My partner JF shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
         {"type":"a","embed":"www.vertiponic.com"}
@@ -20,7 +20,7 @@
 
     "Front": {
         "sup_title": "The fabrics of I.T.",
-        "title": "Front-end",
+        "title": "Frontend",
         "summary": "HTML and CSS are my oldest I.T. skills but they are still standing strong.  Meanwhile JavaScript has taken on the epic quest. Packages are amazing but they won't make the man.",
         "img_href": "./material.png",
         "content": [
@@ -28,15 +28,15 @@
           {"type":"list", "embed":[
               {"icon":"","item":"UX/UI","desc":"It is a delicate art to balance usability and predictability of a user interface with stand-out innovative design."},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
-              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contribute to a more optimized experience for all.  But let's not forget the old timer skills to create the newest last year's packages."}
+              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contribute to a more optimized experience for all.  But let's not forget the skills to code new designs from scratch."}
               ]},
-          {"type":"p","embed":"With my experience ranging across different I.T. specialties I can also say when a solution may become an overkill for my clients' needs.  Honesty is key and as much as I love witnessing the Web becoming more flexible, portable and fun, I commit to do the best with my clients' resources."}
+          {"type":"p","embed":"With my experience ranging across different I.T. specialties I can also identify when a solution may become an overkill for my clients' needs.  Honesty is key and as much as I love witnessing the Web becoming more flexible, portable and fun, I commit to do the best with my clients' resources."}
         ]
       },
 
       "Back": {
         "sup_title": "",
-        "title": "Back-end",
+        "title": "Backend",
         "summary": "About BE",
         "img_href": "./leather.png",
         "content": [

@@ -5,10 +5,10 @@ import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 
 const navigation = [
   { name: 'Agritech', href: '#Agri', current: true },
-  { name: 'Front-End', href: '#Front', current: false },
-  { name: 'Back-End', href: '#Back', current: false },
+  { name: 'Frontend', href: '#Front', current: false },
+  { name: 'Backend', href: '#Back', current: false },
   { name: 'Marketing', href: '#Market', current: false },
-  { name: 'Mobile App', href: '#Mobile', current: false },
+  { name: 'Mobile', href: '#Mobile', current: false },
   { name: 'Integrations', href: '#Integ', current: false },
 ]
 
@@ -21,7 +21,7 @@ function classNames(...classes:string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export function checkCurrent(checkItem:any){
+export function checkCurrent(checkItem:number){
   if (navigation[checkItem].href == "#" + global.cSection){
     navigation[checkItem].current = true
     return true;
@@ -56,8 +56,8 @@ export default function Headersmenu() {
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto invert"
-                    src="./codemara.svg"
+                    className="h-8 w-auto"
+                    src="./logo-codemara.svg"
                     alt="codeMARA"
                   />
                 </div>
