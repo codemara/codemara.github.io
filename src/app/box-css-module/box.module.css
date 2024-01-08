@@ -62,7 +62,7 @@
   .oceanBreeze [data-node-id="box-beams-img"]:hover,
   .oceanBreeze [data-node-id="box-built-img"]:hover,
   .oceanBreeze [data-node-id="box-final-img"]:hover {
-    fill-opacity: 0.7;
+    fill-opacity: 0.85;
   }
 
 
@@ -84,7 +84,6 @@
     font-weight: bolder;
   }
 
-  .oceanBreeze [data-node-id="box-field"]:hover text,
   .oceanBreeze [data-node-id="box-beams"]:hover text,
   .oceanBreeze [data-node-id="box-built"]:hover text,
   .oceanBreeze [data-node-id="box-leather"]:hover text{

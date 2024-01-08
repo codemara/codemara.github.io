@@ -26,7 +26,7 @@ const Listelmt = (props: { zeList: customList }) => {
           
 }
 
-export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>}){
+export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>, counter:number}){
  
     //console.log("type:"+props.typeElmt);
     
@@ -53,7 +53,7 @@ export default function wrapElements(props:{typeElmt:string, strElmt:string, arr
         case "list":
             
             return (
-                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={zelist.item+"-"+counter++} zeList={zelist} /> ))}</ul>
+                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={props.counter} zeList={zelist} /> ))}</ul>
             )
     
         default:

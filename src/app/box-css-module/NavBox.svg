@@ -66,8 +66,8 @@ fill="currentColor" data-node-id="box-global" >
 
 <defs>
 
-  <pattern id="patternfield" patternContentUnits="objectBoundingBox" width=".8" height=".8">
-    <image href="/field.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.367691 0)"/>
+  <pattern id="patternfield" patternContentUnits="objectBoundingBox" width="1" height="1">
+    <image href="/field.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.95 -0.05)"/>
   </pattern>
 
   <pattern id="patternmaterial" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -83,7 +83,7 @@ fill="currentColor" data-node-id="box-global" >
   </pattern>
 
   <pattern id="patternbuilt" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/built.jpg" transform="matrix(0.00105866 0 0 0.000913242 -0.583011 0)"/>
+    <image href="/built.png" transform="matrix(0.00105866 0 0 0.000913242 -0.583011 0)"/>
   </pattern>
 
   <pattern id="patternfinal" patternContentUnits="objectBoundingBox" width="1" height="1">

@@ -1,8 +1,6 @@
 import { Agri, Front, Back, Market, Mobile, Integ } from "@/public/contents.json"
 
 import WrapElements from "@/src/app/section-components/WrapElements"
-import { timeStamp } from "console";
-
 
 interface ObjSection {
   [key: string]: any; 
@@ -35,7 +33,7 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
     strlm = (item.type != 'list') ? item.embed + "" : ""
     arrlm = (item.type+"" == 'list') ? item.embed : new Array<customList>
     
-    myLocalJSX.push(<WrapElements typeElmt={typelm} strElmt={strlm} arrElmt={arrlm}  />)
+    myLocalJSX.push(<WrapElements typeElmt={typelm} strElmt={strlm} arrElmt={arrlm} counter={counter}  />)
    
   }
 

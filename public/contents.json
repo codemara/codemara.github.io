@@ -72,9 +72,9 @@
 
       "Mobile": {
         "sup_title": "",
-        "title": "Mobile App",
+        "title": "Mobile",
         "summary": "About Mobile",
-        "img_href": "./built.jpg",
+        "img_href": "./built.png",
         "content": [
           {"type":"p","embed":"First paragraph dev testing MOBILE"},
           {"type":"list", "embed":[
