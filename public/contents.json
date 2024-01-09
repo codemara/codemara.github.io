@@ -2,10 +2,10 @@
     "Agri": {
       "sup_title": "From growing to coding...",
       "title": "Agritech",
-      "summary": "Agricultural technology should be built with farmers' skills rather than for replacing them.  ",
+      "summary": "I am a developer with a passion for agriculture and I had the chance to learn hydroponics.  Now equiped with software development skills, this growing experience is an amazing resource to help me address specific technological needs for the future of food production. ",
       "img_href": "./field.jpg",
       "content": [
-        {"type":"p","embed":"This category is placed on top as it made us who we are but it also stands ahead like a hopeful promise. "},
+        {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
         {"type":"list", "embed":[
             {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  But it can be a great assisting tool." },
             {"icon":"","item":"Flexibility & Assistance","desc": "Automatic customisation is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
@@ -37,10 +37,10 @@
       "Back": {
         "sup_title": "",
         "title": "Backend",
-        "summary": "About BE",
+        "summary": "",
         "img_href": "./leather.png",
         "content": [
-          {"type":"p","embed":"First paragraph dev testing BE"},
+          {"type":"p","embed":""},
           {"type":"list", "embed":[
               {"icon":"","item":"","desc":""},
               {"icon":"","item":"","desc":""},
