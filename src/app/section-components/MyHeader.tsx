@@ -3,6 +3,8 @@ import { Disclosure, Menu, Popover, Transition } from '@headlessui/react'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 
+import Image from 'next/image'
+
 const navigation = [
   { name: 'Agritech', href: '#Agri', current: true },
   { name: 'Frontend', href: '#Front', current: false },
@@ -32,7 +34,7 @@ export function checkCurrent(checkItem:number){
 
 }
 
-export default function Headersmenu() {
+export default function MyHeader() {
   console.log("read Header: "+ global.cSection);
   return (
     <Disclosure as="nav" className="bg-gray-80 ">
@@ -101,7 +103,31 @@ export default function Headersmenu() {
                         >
                         <Popover.Panel className="absolute -right-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                             <div className="p-4">
-                            ...
+                            
+                            
+                            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+                                <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Welcome to codeMARA</h3>
+                                    <p className="my-4">Coding sweetness in a bitter world.</p>
+                                </blockquote>
+                                <figcaption className="flex items-center justify-center ">
+
+                                    <Image
+                                          src="/noemidesmarais.jpg"
+                                          className="rounded-full w-9 h-9" 
+                                          width={16}
+                                          height={16}
+                                          alt="Noemi Desmarais"
+                                        />
+
+                                    <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                        <div>Noemi Desmarais</div>
+                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer based in Calgary</div>
+                                    </div>
+                                </figcaption>    
+                            </figure>
+
+
                             </div>
                             <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                             {callsToAction.map((item) => (
