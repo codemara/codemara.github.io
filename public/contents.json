@@ -11,7 +11,7 @@
             {"icon":"","item":"Flexibility & Assistance","desc": "Automatic customisation is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
             {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also have their hands on a grower's hard earned data and statistics?" }
             ]},
-        {"type":"p","embed":"Our Agritech projects are not available yet but you can reach me for technological solutions that will suit small and medium farms."},
+        {"type":"p","embed":"Our Agritech products are coming soon. In the meantime, you can reach me for technological solutions that will suit small and medium farms."},
         {"type":"sub_title","embed":"Learn to grow"},
         {"type":"p","embed":"My partner JF shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
         {"type":"a","embed":"www.vertiponic.com"}
@@ -21,10 +21,10 @@
     "Front": {
         "sup_title": "The fabrics of I.T.",
         "title": "Frontend",
-        "summary": "HTML and CSS are my oldest I.T. skills but they are still standing strong.  Meanwhile JavaScript has taken on the epic quest. Packages are amazing but they won't make the man.",
+        "summary": "Every projects start with a vision for the visuals and chances are the design will still be touched up on long after all modules are deployed.  Needless to say, frontend development is one of the most essential aspect of information technologies.",
         "img_href": "./material.png",
         "content": [
-          {"type":"p","embed":"Presentation starts in the design process way before any technology is adopted.  I have the creativity and skills to deliver each step of the process."},
+          {"type":"p","embed":"I have had CSS/HTML and JavaScript in my toolkit long before frameworks and libraries were common. I am amazed at the evolution of modern web technologies and how relevant these languages still are today. I was trained to deliver every steps of a design process but with the technical feasibility always in mind."},
           {"type":"list", "embed":[
               {"icon":"","item":"UX/UI","desc":"It is a delicate art to balance usability and predictability of a user interface with stand-out innovative design."},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
