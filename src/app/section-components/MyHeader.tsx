@@ -115,8 +115,8 @@ export default function MyHeader() {
                                     <Image
                                           src="/noemidesmarais.jpg"
                                           className="rounded-full w-9 h-9" 
-                                          width={16}
-                                          height={16}
+                                          width={171}
+                                          height={171}
                                           alt="Noemi Desmarais"
                                         />
 
