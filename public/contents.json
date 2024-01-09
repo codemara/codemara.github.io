@@ -7,8 +7,8 @@
       "content": [
         {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
         {"type":"list", "embed":[
-            {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  But it can be a great assisting tool." },
-            {"icon":"","item":"Flexibility & Assistance","desc": "Automatic customisation is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
+            {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  It is a great assisting tool in reaching optimized conditions." },
+            {"icon":"","item":"Flexibility & Customization","desc": "Automatic customization is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
             {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also have their hands on a grower's hard earned data and statistics?" }
             ]},
         {"type":"p","embed":"Our Agritech products are coming soon. In the meantime, you can reach me for technological solutions that will suit small and medium farms."},
@@ -24,85 +24,84 @@
         "summary": "Every projects start with a vision for the visuals and chances are the design will still be touched up on long after all modules are deployed.  Needless to say, frontend development is one of the most essential aspect of information technologies.",
         "img_href": "./material.png",
         "content": [
-          {"type":"p","embed":"I have had CSS/HTML and JavaScript in my toolkit long before frameworks and libraries were common. I am amazed at the evolution of modern web technologies and how relevant these languages still are today. I was trained to deliver every steps of a design process but with the technical feasibility always in mind."},
+          {"type":"p","embed":"I have had CSS/HTML and JavaScript in my toolkit long before frameworks and libraries were common. I am amazed at the evolution of modern Web and how relevant these languages still are today. I was trained to deliver every steps of a design process but with the technical feasibility always in mind."},
           {"type":"list", "embed":[
               {"icon":"","item":"UX/UI","desc":"It is a delicate art to balance usability and predictability of a user interface with stand-out innovative design."},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
-              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contribute to a more optimized experience for all.  But let's not forget the skills to code new designs from scratch."}
+              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contributes to a more optimized experience for all.  But let's not forget the skills to code new designs from scratch."}
               ]},
           {"type":"p","embed":"With my experience ranging across different I.T. specialties I can also identify when a solution may become an overkill for my clients' needs.  Honesty is key and as much as I love witnessing the Web becoming more flexible, portable and fun, I commit to do the best with my clients' resources."}
         ]
       },
 
       "Back": {
-        "sup_title": "",
+        "sup_title": "Where mystery becomes real",
         "title": "Backend",
         "summary": "",
         "img_href": "./leather.png",
         "content": [
           {"type":"p","embed":""},
           {"type":"list", "embed":[
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""}
+              {"icon":"","item":"Node.js","desc":""},
+              {"icon":"","item":"Microservices/REST API","desc":""},
+              {"icon":"","item":"Java","desc":""}
               ]},
-          {"type":"p","embed":"2e"},
-          {"type":"sub_title","embed":"Sub"},
-          {"type":"p","embed":"3e"}
+          {"type":"p","embed":""},
+          {"type":"sub_title","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
       "Market": {
-        "sup_title": "",
+        "sup_title": "Telling stories",
         "title": "Marketing",
-        "summary": "About Market",
+        "summary": "",
         "img_href": "./beams.jpg",
         "content": [
-          {"type":"p","embed":"First paragraph dev testing MARKET"},
+          {"type":"p","embed":""},
           {"type":"list", "embed":[
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""}
+              {"icon":"","item":"Content writing","desc":""},
+              {"icon":"","item":"SEO & Geotargeting","desc":""},
+              {"icon":"","item":"Digital campaigns","desc":""}
               ]},
-          {"type":"p","embed":"2e"},
-          {"type":"sub_title","embed":"Sub"},
-          {"type":"p","embed":"3e"}
+          {"type":"p","embed":""},
+          {"type":"sub_title","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
       "Mobile": {
-        "sup_title": "",
+        "sup_title": "Closer to the user",
         "title": "Mobile",
-        "summary": "About Mobile",
+        "summary": "",
         "img_href": "./built.png",
         "content": [
-          {"type":"p","embed":"First paragraph dev testing MOBILE"},
+          {"type":"p","embed":""},
           {"type":"list", "embed":[
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""}
+              {"icon":"","item":"Android apps","desc":""},
+              {"icon":"","item":"Game development","desc":""}
               ]},
-          {"type":"p","embed":"2e"},
-          {"type":"sub_title","embed":"Sub"},
-          {"type":"p","embed":"3e"}
+          {"type":"p","embed":""},
+          {"type":"sub_title","embed":""},
+          {"type":"p","embed":""}
         ]
       },
 
       "Integ": {
-        "sup_title": "",
+        "sup_title": "Uniting data and results",
         "title": "Integrations",
-        "summary": "About Int",
+        "summary": "",
         "img_href": "./final.png",
         "content": [
-          {"type":"p","embed":"First paragraph dev testing INTEG"},
+          {"type":"p","embed":""},
           {"type":"list", "embed":[
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""},
-              {"icon":"","item":"","desc":""}
+              {"icon":"","item":"SQL/NoSQL Databases","desc":""},
+              {"icon":"","item":"APIs","desc":""},
+              {"icon":"","item":"Multimedia","desc":""}
               ]},
-          {"type":"p","embed":"2e"},
-          {"type":"sub_title","embed":"Sub"},
-          {"type":"p","embed":"3e"}
+          {"type":"p","embed":""},
+          {"type":"sub_title","embed":""},
+          {"type":"p","embed":""}
         ]
       }
 }

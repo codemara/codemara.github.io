@@ -64,6 +64,16 @@ fill="currentColor" data-node-id="box-global" >
 
  <image href="/codemara.svg" x='175' y='300' className='invert'/>
 
+
+
+<g id="svg_label">
+<rect width="204" height="63" rx="8"  x="230" y="430" fill="white" fill-opacity="0.5"/>
+
+<text fill="#11181C" xml:space="preserve" style="white-space: pre" font-size="18" letter-spacing="0em"><tspan x="247" y="458.2852">by Noemi Desmarais</tspan></text>
+<text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="243" y="475.6016">Developer based in Calgary</tspan></text>
+</g>
+
+
 <defs>
 
   <pattern id="patternfield" patternContentUnits="objectBoundingBox" width="1" height="1">
