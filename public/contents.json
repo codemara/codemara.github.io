@@ -87,7 +87,7 @@
           {"type":"p","embed":"Synthesis is my nature.  My curious endless seeking mind and my wide variety of life experience has given me what it takes to integrate concepts, data and media into results."},
           {"type":"list", "embed":[
               {"icon":"","item":"SQL/NoSQL Databases","desc":"Structuring data is the key to get the most results out of them."},
-              {"icon":"","item":"APIs","desc":"APIs are so great to share data accross domains and extend services to users in the most portable way."}
+              {"icon":"","item":"APIs","desc":"APIs are so great to share data across domains and extend services to users in the most portable way."}
               ]}
         ]
       }
