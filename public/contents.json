@@ -74,21 +74,20 @@
               {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK."},
               {"icon":"","item":"Iphone Apps","desc":"Iphones are almost 60% of the U.S. market. I am yet to take on the challenge of developing for the Apple Store but I can develop for cross-platform in React Native."}
               ]},
-          {"type":"p","embed":"I have a strong capacity to pick up new programming languages.  It is only a matter of time until I dive into Swift and Kotlin or into frameworks like Unity."}
+          {"type":"p","embed":"I have a strong capacity to learn programming languages very fast.  It is only a matter of time until I dive into Swift and Kotlin or into frameworks like Unity."}
         ]
       },
 
       "Integ": {
         "sup_title": "Uniting data and results",
         "title": "Integrations",
-        "summary": "",
+        "summary": "I take care of the means but what truly matters is always the result.",
         "img_href": "./final.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"Synthesis is my nature.  My curious endless seeking mind and my wide variety of life experience has given me what it takes to integrate concepts, data and media into results."},
           {"type":"list", "embed":[
-              {"icon":"","item":"SQL/NoSQL Databases","desc":""},
-              {"icon":"","item":"APIs","desc":""},
-              {"icon":"","item":"Multimedia","desc":""}
+              {"icon":"","item":"SQL/NoSQL Databases","desc":"Structuring data is the key to get the most results out of them."},
+              {"icon":"","item":"APIs","desc":"APIs are so great to share data accross domains and extend services to users in the most portable way."}
               ]}
         ]
       }
