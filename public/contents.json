@@ -66,14 +66,15 @@
       "Mobile": {
         "sup_title": "Closer to the user",
         "title": "Mobile",
-        "summary": "",
+        "summary": "A good addition to a digital strategy, mobile applications allow businesses to stay in the reach of their users at all time.",
         "img_href": "./built.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"Mobile development is an exciting market with so much opportunities.  It is a new skill for me but I am committed to push it to its full potential with every new projects that comes my way."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Android apps","desc":""},
-              {"icon":"","item":"Game development","desc":""}
-              ]}
+              {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK."},
+              {"icon":"","item":"Iphone Apps","desc":"Iphones are almost 60% of the U.S. market. I am yet to take on the challenge of developing for the Apple Store but I can develop for cross-platform in React Native."}
+              ]},
+          {"type":"p","embed":"I have a strong capacity to pick up new programming languages.  It is only a matter of time until I dive into Swift and Kotlin or into frameworks like Unity."}
         ]
       },
 
