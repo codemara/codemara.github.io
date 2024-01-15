@@ -40,15 +40,12 @@
         "summary": "The essential and most abstract part of I.T., a good backbone will increase performance, organisation and services available to customers.",
         "img_href": "./leather.png",
         "content": [
-          {"type":"p","embed":"Backend development "},
+          {"type":"p","embed":"Backend development is the most mysterious yet rewarding discipline.  The only limitation is our own imagination."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Node.js","desc":""},
-              {"icon":"","item":"Microservices/REST API","desc":""},
-              {"icon":"","item":"Java","desc":""}
-              ]},
-          {"type":"p","embed":""},
-          {"type":"sub_title","embed":""},
-          {"type":"p","embed":""}
+              {"icon":"","item":"Node.js","desc":"Has become the favorite standard to support content-driven website and applications.  It allows to run JavaScript on servers and possibilites are wide and wild."},
+              {"icon":"","item":"Microservices/REST API","desc":"To share data accross different domains, pages, applications and more"},
+              {"icon":"","item":"Java/Spring","desc":"Still a robust solutions for complex applications such as back offices and more"}
+              ]}
         ]
       },
 
