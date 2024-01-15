@@ -9,9 +9,11 @@ It showcases some my following skills:
 [![My Skills](https://skillicons.dev/icons?i=java,spring,nodejs,nextjs,react,androidstudio,js,ts,css,html,php,mysql,sqlite,figma,svg,ai,ps,xd,tailwind,vercel,wordpress,sketchup&theme=light)](https://skillicons.dev)
 
 This is the first release and here is the road map for further development:
-- Add more SVG animations
 - Add skills icons
+- Add more SVG animations
 - Make sections into classes
-- Add more examples of past works for portfolio
+- Make frontend fully dynamic
+- Add a NoSQL database for content
+- Add more examples of past works and projects
 - Add articles section
 - Add bio section
