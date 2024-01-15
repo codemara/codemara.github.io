@@ -1,7 +1,4 @@
-import { Fragment } from 'react'
-
 import { GiCircuitry } from "react-icons/gi";
-
 
 interface customList {
     icon : string

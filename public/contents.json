@@ -2,7 +2,7 @@
     "Agri": {
       "sup_title": "From growing to coding...",
       "title": "Agritech",
-      "summary": "I am a developer with a passion for agriculture and I had the chance to learn hydroponics.  Now equiped with software development skills, this growing experience is an amazing resource to help me address specific technological needs for the future of food production. ",
+      "summary": "I am a developer with a passion for agriculture and I had the chance to learn hydroponics with my partner Jean-Francois Levesque.  Now equiped with software development skills, this growing experience is an amazing resource to help me address specific technological needs for the future of food production. ",
       "img_href": "./field.jpg",
       "content": [
         {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
@@ -13,7 +13,7 @@
             ]},
         {"type":"p","embed":"Our Agritech products are coming soon. In the meantime, you can reach me for technological solutions that will suit small and medium farms."},
         {"type":"sub_title","embed":"Learn to grow"},
-        {"type":"p","embed":"My partner JF shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
+        {"type":"p","embed":"Jean-Francois shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
         {"type":"a","embed":"www.vertiponic.com"}
       ]
     },
@@ -35,12 +35,12 @@
       },
 
       "Back": {
-        "sup_title": "Where mystery becomes real",
+        "sup_title": "Dwelling in the hides",
         "title": "Backend",
-        "summary": "",
+        "summary": "The essential and most abstract part of I.T., a good backbone will increase performance, organisation and services available to customers.",
         "img_href": "./leather.png",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"Backend development "},
           {"type":"list", "embed":[
               {"icon":"","item":"Node.js","desc":""},
               {"icon":"","item":"Microservices/REST API","desc":""},
