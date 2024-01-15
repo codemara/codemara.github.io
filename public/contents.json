@@ -52,18 +52,14 @@
       "Market": {
         "sup_title": "Telling stories",
         "title": "Marketing",
-        "summary": "",
+        "summary": "As complex as humanity itself, marketing goes beyond the digital world. Strategies must consider many facets of any given businesses.",
         "img_href": "./beams.jpg",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"Nowadays, an intergrated marketing strategies include digital products.  There is no one fit solution model and context and content matters above all."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Content writing","desc":""},
-              {"icon":"","item":"SEO & Geotargeting","desc":""},
-              {"icon":"","item":"Digital campaigns","desc":""}
-              ]},
-          {"type":"p","embed":""},
-          {"type":"sub_title","embed":""},
-          {"type":"p","embed":""}
+              {"icon":"","item":"Content writing","desc":"Artificial intelligence is a great general content writing tool but nothing replaces expertise and human reflexions to give the most relevant information."},
+              {"icon":"","item":"SEO & Geotargeting","desc":"Search engines are the most useful tools to reach an audience with a need but competition is fierce.  Having a well optimized and referenced Website coupled with a local strategy will go a long way."}
+              ]}
         ]
       },
 
@@ -77,10 +73,7 @@
           {"type":"list", "embed":[
               {"icon":"","item":"Android apps","desc":""},
               {"icon":"","item":"Game development","desc":""}
-              ]},
-          {"type":"p","embed":""},
-          {"type":"sub_title","embed":""},
-          {"type":"p","embed":""}
+              ]}
         ]
       },
 
@@ -95,10 +88,7 @@
               {"icon":"","item":"SQL/NoSQL Databases","desc":""},
               {"icon":"","item":"APIs","desc":""},
               {"icon":"","item":"Multimedia","desc":""}
-              ]},
-          {"type":"p","embed":""},
-          {"type":"sub_title","embed":""},
-          {"type":"p","embed":""}
+              ]}
         ]
       }
 }
