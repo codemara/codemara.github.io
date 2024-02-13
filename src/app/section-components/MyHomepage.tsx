@@ -70,7 +70,40 @@ export default function MyHomepage(props: { zeSection: string }) {
           </defs>
           <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
             <path
-              d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+              d="M-100,0
+              L64,-96
+              L228,0
+              L228,189
+              L64,285
+              L-100,189
+              V0
+              Z
+              
+              M700,0
+              L864,-96
+              L1028,0
+              L1028,189
+              L864,285
+              L700,189
+              V0
+              Z
+              M500,400
+              L664,304
+              L828,400
+              L828,589
+              L664,685
+              L500,589
+              V400
+              Z
+              
+              M-300,600
+              L-136,504
+              L28,600
+              L28,789
+              L-136,885
+              L-300,789
+              V600
+              Z"
               strokeWidth={0}
             />
           </svg>
