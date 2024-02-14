@@ -58,17 +58,25 @@ export default function MyHomepage(props: { zeSection: string }) {
           <defs>
             <pattern
               id="backgroundSvg"
-              width={200}
-              height={200}
+              width={328}
+              height={369}
               x="50%"
               y={-1}
               patternUnits="userSpaceOnUse"
             >
-              <path d="M100 200V.5M.5 .5H200" 
+              <path d="M164,285
+                      V96
+                      M0,0
+                      L164,96
+                      L328,0
+                      M0,370
+                      L164,285
+                      L328,370
+                      Z"
               fill="none" />
             </pattern>
           </defs>
-          <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+          <svg x="50%" y={-1} className="overflow-visible fill-white">
             <path
               d="M-100,0
               L64,-96
