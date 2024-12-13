@@ -7,54 +7,54 @@ fill="currentColor" data-node-id="box-global" >
     <!-- Field box  -->
 
     <g data-node-id="box-field">
-    <a xlink:href="./#Agri">
+    <a xlink:href="./#Visual">
     <path data-node-id="box-field-color" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z"  fill-opacity="0.6" stroke="white" stroke-width="2"/>
     <path data-node-id="box-field-img" d="M167 97.5728L331.411 1.15926L495.822 97.5728L495.822 285.926L331.001 382.341L167 285.928V97.5728Z" fill="url(#patternfield)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre"><tspan x="281" y="103.227">Agritech</tspan></text>
+    <text xml:space="preserve" style="white-space: pre"><tspan x="281" y="103.227">Visualization</tspan></text>
     </a>
     </g>
 
     <!-- Leather box  -->
     <g data-node-id="box-leather">
-    <a xlink:href="./#Back">
+    <a xlink:href="./#Analysis">
     <path data-node-id="box-leather-color" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
     <path data-node-id="box-leather-img" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill="url(#patternleather)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Backend</tspan></text>
+    <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Analysis</tspan></text>
     </a>
     </g>
 
     <!-- Built box  -->
     <g data-node-id="box-built">
-    <a xlink:href="./#Mobile">
+    <a xlink:href="./#Market">
       <path data-node-id="box-built-color" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
       <path data-node-id="box-built-img" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill="url(#patternbuilt)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="513.227">Mobile</tspan></text>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="513.227">Marketing</tspan></text>
     </a>
     </g>
 
     <!-- Material box  -->
     <g data-node-id="box-material">
-    <a xlink:href="./#Front">
+    <a xlink:href="./#DataC">
     <path data-node-id="box-material-color" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill-opacity="0.75" stroke="white" stroke-width="2"/>
     <path data-node-id="box-material-img" d="M332 193.573L496.411 97.1593L660.822 193.573L660.822 381.926L496.001 478.341L332 381.928V193.573Z"  fill="url(#patternmaterial)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre" ><tspan x="508" y="276.227">Frontend</tspan></text>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="508" y="276.227">Data Capture</tspan></text>
     </a>
     </g>
     <!-- Final box  -->
     <g data-node-id="box-final">
-    <a xlink:href="./#Integ">
+    <a xlink:href="./#Auto">
       <path data-node-id="box-final-color" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
       <path data-node-id="box-final-img" d="M2 193.573L166.411 97.1593L330.822 193.573L330.822 381.926L166.001 478.341L2 381.928V193.573Z" fill="url(#patternfinal)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="276.227">Integrations</tspan></text>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="276.227">Automation</tspan></text>
     </a>
     </g>
 
     <!-- Beams box  -->
     <g data-node-id="box-beams">
-    <a xlink:href="./#Market">
+    <a xlink:href="./#Deve">
     <path data-node-id="box-beams-color" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
     <path data-node-id="box-beams-img" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill="url(#patternbeams)" fill-opacity="0.2"/>
-    <text xml:space="preserve" style="white-space: pre" ><tspan x="272" y="640.227">Marketing</tspan></text>
+    <text xml:space="preserve" style="white-space: pre" ><tspan x="272" y="640.227">Development</tspan></text>
     </a>
     </g>
 
@@ -70,34 +70,34 @@ fill="currentColor" data-node-id="box-global" >
 <rect width="204" height="63" rx="8"  x="230" y="430" fill="white" fill-opacity="0.5"/>
 
 <text fill="#11181C" xml:space="preserve" style="white-space: pre" font-size="18" letter-spacing="0em"><tspan x="247" y="458.2852">by Noemi Desmarais</tspan></text>
-<text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="243" y="475.6016">Developer based in Calgary</tspan></text>
+<text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="243" y="475.6016">Junior Developer based in Calgary</tspan></text>
 </g>
 
 
 <defs>
 
   <pattern id="patternfield" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/field.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.95 -0.05)"/>
+    <image href="/GIS/GEOS457-A1.jpg" transform="matrix(0.000867691 0 0 0.000748503 0 -0.2)"/>
   </pattern>
 
   <pattern id="patternmaterial" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/material.png" transform="matrix(0.0022293 0 0 0.00192308 -0.263534 0)"/>
+    <image href="/GIS/GEOS451-A3.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.5 -0.5)"/>
   </pattern>
 
   <pattern id="patternleather" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/leather.png" transform="matrix(0.00322907 0 0 0.00278552 -0.121595 0)"/>
+    <image href="/GIS/GEOS419-Final.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.40312 -1.4)"/>
   </pattern>
 
     <pattern id="patternbeams" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/beams.png" transform="matrix(0.00208121 0 0 0.00179533 -0.174312 0)"/>
+    <image href="/built.png" transform="matrix(0.00105866 0 0 0.000913242 0 -0.2)"/>
   </pattern>
 
   <pattern id="patternbuilt" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/built.png" transform="matrix(0.00105866 0 0 0.000913242 -0.583011 0)"/>
+    <image href="/beams.png" transform="matrix(0.00208121 0 0 0.00179533 -0.174312 0)"/>
   </pattern>
 
   <pattern id="patternfinal" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/final.png" transform="matrix(0.00166557 0 0 0.00143678 -0.55014 0)"/>
+    <image href="/GIS/automation-workflow.jpg" transform="matrix(0.00166557 0 0 0.00143678 -0.55014 0)"/>
   </pattern>
 
   <linearGradient id="maingradient" x1="332.411" y1="192" x2="332.411" y2="575.5" gradientUnits="userSpaceOnUse">

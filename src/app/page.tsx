@@ -92,21 +92,34 @@ export default function Home() {
       
       <section>
 
-      <div id='Agri' className="relative">
-        <Section title='Agri' />
-        <MyHomepage zeSection='Agri' />
+      <div id='Auto' className="relative">
+        <Section title='Auto' />
+        <MyHomepage zeSection='Auto' />
       </div>
       <div>&nbsp;</div>
 
-      <div id='Front' className="relative">
-      <Section title='Front' />
-      <MyHomepage zeSection='Front' />
+      <div id='Visual' className="relative">
+      <Section title='Visual' />
+      <MyHomepage zeSection='Visual' />
+      </div>
+      <div>&nbsp;</div>
+   
+      <div id='DataC' className="relative">
+      <Section title='DataC' />
+      <MyHomepage zeSection='DataC' />
+      </div>
+      <div>&nbsp;</div>
+   
+      <div id='Analysis' className="relative">
+      <Section title='Analysis' />
+      <MyHomepage zeSection='Analysis' />
       </div>
       <div>&nbsp;</div>
 
-      <div id='Back' className="relative">
-      <Section title='Back' />
-      <MyHomepage zeSection='Back' />
+
+      <div id='Deve' className="relative">
+      <Section title='Deve' />
+      <MyHomepage zeSection='Deve' />
       </div>
       <div>&nbsp;</div>
 
@@ -118,19 +131,7 @@ export default function Home() {
       <div>&nbsp;</div>
 
 
-      <div id='Mobile' className="relative">
-      <Section title='Mobile' />
-      <MyHomepage zeSection='Mobile' />
-      </div>
-      <div>&nbsp;</div>
 
-
-      <div id='Integ' className="relative">
-      <Section title='Integ' />
-      <MyHomepage zeSection='Integ' />
-      </div>
-      <div>&nbsp;</div>
-   
       </section>
           
     </main>

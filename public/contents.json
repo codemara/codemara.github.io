@@ -1,9 +1,9 @@
 {
-    "Agri": {
+    "Auto": {
       "sup_title": "From growing to coding...",
-      "title": "Agritech",
-      "summary": "I am a developer with a passion for agriculture and I had the chance to learn hydroponics with my partner Jean-Francois Levesque.  Now equiped with software development skills, this growing experience is an amazing resource to help me address specific technological needs for the future of food production. ",
-      "img_href": "./field.jpg",
+      "title": "Automation",
+      "summary": "I am a developer with a passion for agriculture and greenhouse automation. ",
+      "img_href": "./GIS/automation-workflow.jpg",
       "content": [
         {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
         {"type":"list", "embed":[
@@ -18,11 +18,11 @@
       ]
     },
 
-    "Front": {
+    "Visual": {
         "sup_title": "The fabrics of I.T.",
-        "title": "Frontend",
+        "title": "Visualization",
         "summary": "Every projects start with a vision for the visuals and chances are the design will still be touched up on long after all modules are deployed.  Needless to say, frontend development is one of the most essential aspect of information technologies.",
-        "img_href": "./material.png",
+        "img_href": "./GIS/GEOS457-A1.jpg",
         "content": [
           {"type":"p","embed":"I have had CSS/HTML and JavaScript in my toolkit long before frameworks and libraries were common. I am amazed at the evolution of modern Web and how relevant these languages still are today. I was trained to deliver every steps of a design process but with the technical feasibility always in mind."},
           {"type":"list", "embed":[
@@ -34,11 +34,11 @@
         ]
       },
 
-      "Back": {
-        "sup_title": "Dwelling in the hides",
-        "title": "Backend",
+      "DataC": {
+        "sup_title": "The Quest of excellent datasets",
+        "title": "Data Capture",
         "summary": "The essential and most abstract part of I.T., a good backbone will increase performance, organisation and services available to customers.",
-        "img_href": "./leather.png",
+        "img_href": "./GIS/GEOS451-A3.jpg",
         "content": [
           {"type":"p","embed":"Backend development is the most mysterious yet rewarding discipline.  The only limitation is our own imagination."},
           {"type":"list", "embed":[
@@ -49,11 +49,11 @@
         ]
       },
 
-      "Market": {
+      "Analysis": {
         "sup_title": "Telling stories",
-        "title": "Marketing",
+        "title": "Spatial Analysis",
         "summary": "As complex as humanity itself, marketing goes beyond the digital world. Strategies must consider many facets of any given business.",
-        "img_href": "./beams.jpg",
+        "img_href": "./GIS/GEOS419-Final.jpg",
         "content": [
           {"type":"p","embed":"Nowadays, an integrated marketing strategies include digital products.  There is no one fit solution model and context and content matters above all."},
           {"type":"list", "embed":[
@@ -63,9 +63,9 @@
         ]
       },
 
-      "Mobile": {
+      "Deve": {
         "sup_title": "Closer to the user",
-        "title": "Mobile",
+        "title": "Development",
         "summary": "A good addition to a digital strategy, mobile applications allow businesses to stay in the reach of their users at all time.",
         "img_href": "./built.png",
         "content": [
@@ -78,11 +78,11 @@
         ]
       },
 
-      "Integ": {
+      "Market": {
         "sup_title": "Uniting data and results",
-        "title": "Integrations",
+        "title": "Marketing",
         "summary": "I take care of the means but what truly matters is always the result.",
-        "img_href": "./final.png",
+        "img_href": "./beams.jpg",
         "content": [
           {"type":"p","embed":"Synthesis is my nature.  My curious endless seeking mind and my wide variety of life experience has given me what it takes to integrate concepts, data and media into results."},
           {"type":"list", "embed":[

@@ -1,4 +1,4 @@
-import { Agri, Front, Back, Market, Mobile, Integ } from "@/public/contents.json"
+import { Auto, Visual, DataC, Analysis, Deve, Market } from "@/public/contents.json"
 
 import WrapElements from "@/src/app/section-components/WrapElements"
 
@@ -16,7 +16,7 @@ interface customList {
   desc: String; 
   
   }
-const objSection:ObjSection = {"Agri": Agri, "Front": Front, "Back": Back, "Market": Market, "Mobile": Mobile, "Integ": Integ}
+const objSection:ObjSection = {"Auto": Auto, "Visual": Visual, "DataC": DataC, "Analysis": Analysis, "Deve": Deve, "Market": Market}
 
 const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
 
@@ -47,6 +47,9 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
 export default function MyHomepage(props: { zeSection: string }) {
 
  const localData = objSection[props.zeSection];
+
+ console.log("zeSection" + props.zeSection); 
+ console.log("localData" + localData); 
 
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

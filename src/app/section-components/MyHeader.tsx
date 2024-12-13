@@ -6,12 +6,12 @@ import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 import Image from 'next/image'
 
 const navigation = [
-  { name: 'Agritech', href: '#Agri', current: true },
-  { name: 'Frontend', href: '#Front', current: false },
-  { name: 'Backend', href: '#Back', current: false },
+  { name: 'Automation', href: '#Auto', current: true },
+  { name: 'Visualization', href: '#Visual', current: false },
+  { name: 'Data Capture', href: '#DataC', current: false },
+  { name: 'Spatial Analysis', href: '#Analysis', current: false },
+  { name: 'Development', href: '#Deve', current: false },
   { name: 'Marketing', href: '#Market', current: false },
-  { name: 'Mobile', href: '#Mobile', current: false },
-  { name: 'Integrations', href: '#Integ', current: false },
 ]
 
 const callsToAction = [
@@ -35,7 +35,7 @@ export function checkCurrent(checkItem:number){
 }
 
 export default function MyHeader() {
-  console.log("read Header: "+ global.cSection);
+  console.log("coucou read Header: "+ global.cSection);
   return (
     <Disclosure as="nav" className="bg-gray-80 ">
       {({ open }) => (
@@ -108,7 +108,7 @@ export default function MyHeader() {
                             <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                 <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Welcome to codeMARA</h3>
-                                    <p className="my-4">Coding sweetness in a bitter world.</p>
+                                    <p className="my-4">Bitter sweet coding</p>
                                 </blockquote>
                                 <figcaption className="flex items-center justify-center ">
 
@@ -122,7 +122,7 @@ export default function MyHeader() {
 
                                     <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                                         <div>Noemi Desmarais</div>
-                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer based in Calgary</div>
+                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">Junior Developer based in Calgary</div>
                                     </div>
                                 </figcaption>    
                             </figure>
