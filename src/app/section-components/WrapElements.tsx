@@ -9,48 +9,48 @@ interface customList {
 
 const counter = 0;
     
-const Listelmt = (props: { zeList: customList }) => {
+const Listelmt = (myProps: { zeList: customList }) => {
 
        return (
             <li className="flex gap-x-3">
             <GiCircuitry className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
             <span>
-              <strong className="font-semibold text-gray-900">{props.zeList.item}&nbsp;&nbsp;</strong> 
-              {props.zeList.desc}
+              <strong className="font-semibold text-gray-900">{myProps.zeList.item}&nbsp;&nbsp;</strong> 
+              {myProps.zeList.desc}
             </span>
           </li>
           )
           
 }
 
-export default function wrapElements(props:{typeElmt:string, strElmt:string, arrElmt:Array<customList>, counter:number}){
+export default function wrapElements(myProps:{typeElmt:string, strElmt:string, arrElmt:Array<customList>, counter:number}){
  
-    //console.log("type:"+props.typeElmt);
+    //console.log("type:"+myProps.typeElmt);
     
     let counter = 0;
 
-    switch (props.typeElmt) {
+    switch (myProps.typeElmt) {
         case "p":
             
             return (
-                <p className="mt-8" >{props.strElmt}</p>
+                <p className="mt-8" >{myProps.strElmt}</p>
             )
 
         case "a":
             return (
-                <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+props.strElmt} >{props.strElmt}</a>
+                <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a>
             )
 
         case "sub-title":
             
             return (
-                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{props.strElmt}</h2>                
+                <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">{myProps.strElmt}</h2>                
             )
 
         case "list":
             
             return (
-                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ props.arrElmt.map((zelist) => ( <Listelmt key={props.counter} zeList={zelist} /> ))}</ul>
+                <ul role="list" className="mt-8 space-y-8 text-gray-600">{ myProps.arrElmt.map((zelist) => ( <Listelmt key={myProps.counter} zeList={zelist} /> ))}</ul>
             )
     
         default:

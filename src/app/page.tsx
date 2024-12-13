@@ -15,12 +15,12 @@ declare global {
   var cSection: string;
 }
 
-const Anchor = (props: { title: string }) => {
+const Anchor = (myProps: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
   const entry = useIntersectionObserver(myRef, {})
   const isVisible = !!entry?.isIntersecting
 
-//  console.log(`Render Anchor ${props.title}`, { isVisible })
+//  console.log(`Render Anchor ${myProps.title}`, { isVisible })
  
 if (typeof document !== 'undefined') {
     let myStickyHeader = document.getElementsByTagName("header");
@@ -42,21 +42,21 @@ if (typeof document !== 'undefined') {
   )
 }
 
-const Section = (props: { title: string }) => {
+const Section = (myProps: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
   const entry = useIntersectionObserver(myRef, {})
   const isVisible = !!entry?.isIntersecting
 
 
   if ((typeof document !== 'undefined') && isVisible ) {
-    //console.log(`Render Section ${props.title}`, { isVisible })
+    //console.log(`Render Section ${myProps.title}`, { isVisible })
     let mySectionNav = document.getElementsByClassName("section-nav")
      if (mySectionNav.length > 0) {
       for (let x = 0; x < mySectionNav.length; x++ ) {
-        let condition = '#'+props.title == mySectionNav[x].getAttribute('href')
+        let condition = '#'+myProps.title == mySectionNav[x].getAttribute('href')
         let classCurrent = (condition) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
         mySectionNav[x].setAttribute('class', classCurrent)
-        global.cSection = props.title;
+        global.cSection = myProps.title;
       }
     }
   }

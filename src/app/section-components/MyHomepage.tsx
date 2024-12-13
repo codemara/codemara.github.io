@@ -18,7 +18,7 @@ interface customList {
   }
 const objSection:ObjSection = {"Auto": Auto, "Visual": Visual, "DataC": DataC, "Analysis": Analysis, "Deve": Deve, "Market": Market}
 
-const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
+const Localcontent = (myProps: { zecontent : Array<ObjContent> } ) => {
 
   const myLocalJSX: JSX.Element[] = [];
   
@@ -27,8 +27,8 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
   let arrlm = new Array<customList>
   var counter = 0;
 
-  for (counter; counter < props.zecontent.length;counter++){
-    let item = props.zecontent[counter];
+  for (counter; counter < myProps.zecontent.length;counter++){
+    let item = myProps.zecontent[counter];
     typelm = item.type;
     strlm = (item.type != 'list') ? item.embed + "" : ""
     arrlm = (item.type+"" == 'list') ? item.embed : new Array<customList>
@@ -41,14 +41,14 @@ const Localcontent = (props: { zecontent : Array<ObjContent> } ) => {
     myLocalJSX
   )
 
-  }
+}
 
 
-export default function MyHomepage(props: { zeSection: string }) {
+export default function MyHomepage(myProps: { zeSection: string }) {
 
- const localData = objSection[props.zeSection];
+ const localData = objSection[myProps.zeSection];
 
- console.log("zeSection" + props.zeSection); 
+ console.log("zeSection" + myProps.zeSection); 
  console.log("localData" + localData); 
 
   return (
