@@ -6,10 +6,14 @@ import styles from "./box-css-module/box.module.css";
 import  MyHeader from './section-components/MyHeader';
 import  MyHomepage from './section-components/MyHomepage';
 import  MyFooter from './section-components/MyFooter';
+import  MyBentoBox from './section-components/MyBentoBox';
+
 
 
 import { useRef  } from 'react';
 import { useIntersectionObserver } from 'usehooks-ts'
+
+
 
 declare global {
   var cSection: string;
@@ -41,7 +45,6 @@ if (typeof document !== 'undefined') {
     </div>
   )
 }
-
 const Section = (myProps: { title: string }) => {
   const myRef = useRef<HTMLDivElement | null>(null)
   const entry = useIntersectionObserver(myRef, {})
@@ -76,6 +79,8 @@ type Data = [{
     content: []
 }]
 
+
+
 export default function Home() {
 
   return <>
@@ -101,6 +106,9 @@ export default function Home() {
       <div id='Visual' className="relative">
       <Section title='Visual' />
       <MyHomepage zeSection='Visual' />
+
+      <MyBentoBox />
+
       </div>
       <div>&nbsp;</div>
    

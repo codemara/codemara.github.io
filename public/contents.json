@@ -2,7 +2,7 @@
     "Auto": {
       "sup_title": "From growing to coding...",
       "title": "Automation",
-      "summary": "I am a developer with a passion for agriculture and greenhouse automation. ",
+      "summary": "Python programming makes automation possible from GIS geoprocessing to greenhouse optimization.",
       "img_href": "./GIS/automation-workflow.jpg",
       "content": [
         {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
@@ -10,11 +10,7 @@
             {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  It is a great assisting tool in reaching optimized conditions." },
             {"icon":"","item":"Flexibility & Customization","desc": "Automatic customization is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
             {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also have their hands on a grower's hard earned data and statistics?" }
-            ]},
-        {"type":"p","embed":"Our Agritech products are coming soon. In the meantime, you can reach me for technological solutions that will suit small and medium farms."},
-        {"type":"sub_title","embed":"Learn to grow"},
-        {"type":"p","embed":"Jean-Francois shares his 25 years of growing experience in private coaching sessions and business consultations. Check out:"},
-        {"type":"a","embed":"www.vertiponic.com"}
+            ]}
       ]
     },
 
@@ -23,28 +19,33 @@
         "title": "Visualization",
         "summary": "Every projects start with a vision for the visuals and chances are the design will still be touched up on long after all modules are deployed.  Needless to say, frontend development is one of the most essential aspect of information technologies.",
         "img_href": "./GIS/GEOS457-A1.jpg",
-        "content": [
-          {"type":"p","embed":"I have had CSS/HTML and JavaScript in my toolkit long before frameworks and libraries were common. I am amazed at the evolution of modern Web and how relevant these languages still are today. I was trained to deliver every steps of a design process but with the technical feasibility always in mind."},
-          {"type":"list", "embed":[
-              {"icon":"","item":"UX/UI","desc":"It is a delicate art to balance usability and predictability of a user interface with stand-out innovative design."},
+        "content": [     
+              {"type":"list", "embed":[
+              {"icon":"","item":"ArcGIS Pro","desc":"Great cartographic capapilities"},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
-              {"icon":"","item":"React/Next.js","desc":"I love modern Web, it saves precious resources and contributes to a more optimized experience for all.  But let's not forget the skills to code new designs from scratch."}
+              {"icon":"","item":"React/Next.js","desc":"Modern Web saves precious resources and contributes to a more optimized experience for all."}
               ]},
-          {"type":"p","embed":"With my experience ranging across different I.T. specialties I can also identify when a solution may become an overkill for my clients' needs.  Honesty is key and as much as I love witnessing the Web becoming more flexible, portable and fun, I commit to do the best with my clients' resources."}
+              {"type":"sub_title","embed":"Cartography Tutorial"},
+          {"type":"p","embed":"Check out the challenges overcome in the cartography class:"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_1"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_3"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_4"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_6"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_7"},
+          {"type":"a","embed":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_8"}
         ]
       },
 
       "DataC": {
-        "sup_title": "The Quest of excellent datasets",
+        "sup_title": "The Quest for excellent datasets",
         "title": "Data Capture",
-        "summary": "The essential and most abstract part of I.T., a good backbone will increase performance, organisation and services available to customers.",
+        "summary": "Good Data Capture and Management are the backbones of any grand GIS or I.T. project",
         "img_href": "./GIS/GEOS451-A3.jpg",
         "content": [
-          {"type":"p","embed":"Backend development is the most mysterious yet rewarding discipline.  The only limitation is our own imagination."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Node.js","desc":"Has become the favorite standard to support content-driven website and applications.  It allows to run JavaScript on servers and possibilites are wide and wild."},
-              {"icon":"","item":"Microservices/REST API","desc":"To share data accross different domains, pages, applications and more"},
-              {"icon":"","item":"Java/Spring","desc":"Still a robust solutions for complex applications such as back offices and more"}
+              {"icon":"","item":"SQL/NoSQL Databases","desc":"..."},
+              {"icon":"","item":"Aerial Imagery","desc":"..."},
+              {"icon":"","item":"Digitization and mobile collection","desc":"..."}
               ]}
         ]
       },
@@ -66,14 +67,17 @@
       "Deve": {
         "sup_title": "Closer to the user",
         "title": "Development",
-        "summary": "A good addition to a digital strategy, mobile applications allow businesses to stay in the reach of their users at all time.",
+        "summary": "A good addition to a digital strategy, mobile applications and web development allow businesses to stay in the reach of their users at all time.",
         "img_href": "./built.png",
         "content": [
           {"type":"p","embed":"Mobile development is an exciting market with so much opportunities.  It is a new skill for me but I am committed to push it to its full potential with every new projects that comes my way."},
           {"type":"list", "embed":[
               {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK."},
-              {"icon":"","item":"Iphone Apps","desc":"Iphones are almost 60% of the U.S. market. I am yet to take on the challenge of developing for the Apple Store but I can develop for cross-platform in React Native."}
-              ]},
+              {"icon":"","item":"Iphone Apps","desc":"Iphones are almost 60% of the U.S. market. I am yet to take on the challenge of developing for the Apple Store but I can develop for cross-platform in React Native."},
+              {"icon":"","item":"Node.js","desc":"Has become the favorite standard to support content-driven website and applications.  It allows to run JavaScript on servers and possibilites are wide and wild."},
+              {"icon":"","item":"Microservices/REST API","desc":"To share data accross different domains, pages, applications and more"},
+              {"icon":"","item":"Java/Spring","desc":"Still a robust solutions for complex applications such as back offices and more"}
+              ]}, 
           {"type":"p","embed":"I have a strong capacity to learn programming languages very fast.  It is only a matter of time until I dive into Swift and Kotlin or into frameworks like Unity."}
         ]
       },

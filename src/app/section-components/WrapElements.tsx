@@ -38,7 +38,7 @@ export default function wrapElements(myProps:{typeElmt:string, strElmt:string, a
 
         case "a":
             return (
-                <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a>
+                <p><a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a></p>
             )
 
         case "sub-title":
