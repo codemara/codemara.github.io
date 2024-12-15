@@ -25,7 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+#banner{
+  background: #ffffff url("/public/codemara-bck.jpg") no-repeat center top;
+}
 section {
   scroll-behavior: smooth; 
 }

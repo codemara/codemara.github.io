@@ -91,7 +91,7 @@ export default function Home() {
 
       <Anchor title='Home' />
 
-        <div className='flex justify-center flex-col m-auto h-screen'>
+        <div className='flex justify-center flex-col m-auto h-screen' id="banner">
             <NavBox className={styles.oceanBreeze} />
         </div> 
       
