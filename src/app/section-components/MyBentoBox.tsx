@@ -27,7 +27,7 @@ const products = [
       id: 4,
       name: 'Ecological Assessment at Highfield Farm',
       href: './GIS/GEOS410-A1.jpg',
-      price: 'GEOS 410',
+      price: 'GEOS 450',
       imageSrc: './GIS/GEOS410-A1.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },

@@ -35,7 +35,6 @@ export function checkCurrent(checkItem:number){
 }
 
 export default function MyHeader() {
-  console.log("coucou read Header: "+ global.cSection);
   return (
     <Disclosure as="nav" className="bg-gray-80 ">
       {({ open }) => (

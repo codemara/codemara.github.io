@@ -21,7 +21,7 @@
         "img_href": "./GIS/GEOS457-A1.jpg",
         "content": [     
               {"type":"list", "embed":[
-              {"icon":"","item":"ArcGIS Pro","desc":"Great cartographic capapilities"},
+              {"icon":"","item":"ArcGIS Pro","desc":"Great cartographic capabilities"},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
               {"icon":"","item":"React/Next.js","desc":"Modern Web saves precious resources and contributes to a more optimized experience for all."}
               ]},
@@ -89,10 +89,10 @@
         "summary": "I take care of the means but what truly matters is always the result.",
         "img_href": "./beams.jpg",
         "content": [
-          {"type":"p","embed":"Synthesis is my nature.  My curious endless seeking mind and my wide variety of life experience has given me what it takes to integrate concepts, data and media into results."},
+          {"type":"p","embed":"Nowadays, an integrated marketing strategies include digital products.  There is no one fit solution model and context and content matters above all."},
           {"type":"list", "embed":[
-              {"icon":"","item":"SQL/NoSQL Databases","desc":"Structuring data is the key to get the most results out of them."},
-              {"icon":"","item":"APIs","desc":"APIs are so great to share data across domains and extend services to users in the most portable way."}
+              {"icon":"","item":"Content writing","desc":"Artificial intelligence is a great general content writing tool but nothing replaces expertise and human reflexions to give the most relevant information."},
+              {"icon":"","item":"SEO & Geotargeting","desc":"Search engines are the most useful tools to reach an audience with a need but competition is fierce.  Having a well optimized and referenced Website coupled with a local strategy will go a long way."}
               ]}
         ]
       }

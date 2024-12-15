@@ -26,7 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 #banner{
-  background: #ffffff url("/public/codemara-bck.jpg") no-repeat center top;
+  background: #ffffff url("/codemara-bck.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 section {
   scroll-behavior: smooth; 
