@@ -72,16 +72,13 @@
     background: white;
   }
   
-  .oceanBreeze [data-node-id="box-field"]:hover text,
-  .oceanBreeze [data-node-id="box-material"]:hover text,
-  .oceanBreeze [data-node-id="box-leather"]:hover text,
-  .oceanBreeze [data-node-id="box-beams"]:hover text,
-  .oceanBreeze [data-node-id="box-built"]:hover text,
-  .oceanBreeze [data-node-id="box-final"]:hover text {
+  .oceanBreeze [data-node-id="box-field"]:hover text {
     text-decoration: none; 
     fill: black;
     opacity: 1;
     font-weight: bolder;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
   }
 
   .oceanBreeze [data-node-id="box-material"]:hover text,
@@ -91,6 +88,8 @@
   .oceanBreeze [data-node-id="box-final"]:hover text {
     fill:white;
     opacity: 1;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
   }
 
 

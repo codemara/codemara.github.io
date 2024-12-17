@@ -78,11 +78,11 @@ fill="currentColor" data-node-id="box-global" >
 <defs>
 
   <pattern id="patternfield" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/GIS/GEOS457-A1.jpg" transform="matrix(0.000867691 0 0 0.000748503 0 -0.2)"/>
+    <image href="/GIS/GEOS457-A1.jpg" transform="matrix(0.000967691 0 0 0.000848503 -0.1 -0.2)"/>
   </pattern>
 
   <pattern id="patternmaterial" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/GIS/GEOS451-A3.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.5 -0.5)"/>
+    <image href="/GIS/GEOS451-A3.jpg" transform="matrix(0.001167691 0 0 0.001048503 -0.6 -0.8)"/>
   </pattern>
 
   <pattern id="patternleather" patternContentUnits="objectBoundingBox" width="1" height="1">
