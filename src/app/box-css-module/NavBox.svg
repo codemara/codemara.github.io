@@ -14,13 +14,15 @@ fill="currentColor" data-node-id="box-global" >
     </g>
 
     <!-- Leather box  -->
-    <g data-node-id="box-leather">
     <a xlink:href="./#Analysis">
+    <g data-node-id="box-leather">
+    
       <path data-node-id="box-leather-color" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
       <path data-node-id="box-leather-img" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill="url(#patternleather)" fill-opacity="0.2"/>
       <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Analysis</tspan></text>
-    </a>
+    
     </g>
+    </a>
 
     <!-- Built box  -->
     <g data-node-id="box-built">

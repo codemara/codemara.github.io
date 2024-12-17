@@ -48,9 +48,6 @@ export default function MyHomepage(myProps: { zeSection: string }) {
 
  const localData = objSection[myProps.zeSection];
 
- console.log("zeSection" + myProps.zeSection); 
- console.log("localData" + localData); 
-
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -142,7 +139,7 @@ export default function MyHomepage(myProps: { zeSection: string }) {
           />
         </div>
 
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
 
