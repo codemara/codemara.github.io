@@ -19,7 +19,7 @@ fill="currentColor" data-node-id="box-global" >
     
       <path data-node-id="box-leather-color" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
       <path data-node-id="box-leather-img" d="M332 382.573L496.411 286.159L660.822 382.573L660.822 570.926L496.001 667.341L332 570.928V382.573Z" fill="url(#patternleather)" fill-opacity="0.2"/>
-      <text xml:space="preserve" style="white-space: pre"><tspan x="508" y="513.227">Analysis</tspan></text>
+      <text xml:space="preserve" style="white-space: pre"><tspan x="550" y="543.227">Analysis</tspan></text>
     
     </g>
     </a>
@@ -29,7 +29,7 @@ fill="currentColor" data-node-id="box-global" >
     <a xlink:href="./#Market">
       <path data-node-id="box-built-color" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill-opacity="0.6" stroke="white" stroke-width="2"/>
       <path data-node-id="box-built-img" d="M1 382.573L165.411 286.159L329.822 382.573L329.822 570.926L165.001 667.341L1 570.928V382.573Z" fill="url(#patternbuilt)" fill-opacity="0.2"/>
-      <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="513.227">Marketing</tspan></text>
+      <text xml:space="preserve" style="white-space: pre" ><tspan x="13" y="543.227">Marketing</tspan></text>
     </a>
     </g>
 
@@ -55,7 +55,7 @@ fill="currentColor" data-node-id="box-global" >
     <a xlink:href="./#Deve">
       <path data-node-id="box-beams-color" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill-opacity="0.75" stroke="white" stroke-width="2"/>
       <path data-node-id="box-beams-img" d="M167 478.573L331.411 382.159L495.822 478.573L495.822 666.926L331.001 763.341L167 666.928V478.573Z" fill="url(#patternbeams)" fill-opacity="0.2"/>
-      <text xml:space="preserve" style="white-space: pre" ><tspan x="265" y="640.227">Development</tspan></text>
+      <text xml:space="preserve" style="white-space: pre" ><tspan x="265" y="670.227">Development</tspan></text>
     </a>
     </g>
 
@@ -86,11 +86,11 @@ fill="currentColor" data-node-id="box-global" >
   </pattern>
 
   <pattern id="patternleather" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/GIS/GEOS419-Final.jpg" transform="matrix(0.000867691 0 0 0.000748503 -0.40312 -1.4)"/>
+    <image href="/GIS/GEOS419-Final.jpg" transform="matrix(0.001167691 0 0 0.001048503 -0.72312 -2.05)"/>
   </pattern>
 
     <pattern id="patternbeams" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/built.png" transform="matrix(0.00105866 0 0 0.000913242 0 -0.2)"/>
+    <image href="/built.png" transform="matrix(0.00155866 0 0 0.001413242 -0.5 -0.65)"/>
   </pattern>
 
   <pattern id="patternbuilt" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -98,7 +98,7 @@ fill="currentColor" data-node-id="box-global" >
   </pattern>
 
   <pattern id="patternfinal" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <image href="/GIS/automation-workflow.jpg" transform="matrix(0.00166557 0 0 0.00143678 -0.55014 0)"/>
+    <image href="/GIS/automation-workflow.jpg" transform="matrix(0.00266557 0 0 0.00243678 -0.56014 -0.45)"/>
   </pattern>
 
   <linearGradient id="maingradient" x1="332.411" y1="192" x2="332.411" y2="575.5" gradientUnits="userSpaceOnUse">
