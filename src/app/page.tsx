@@ -100,6 +100,7 @@ export default function Home() {
       <div id='Auto' className="relative">
         <Section title='Auto' />
         <MyHomepage zeSection='Auto' />
+        <MyBentoBox zeSection='Auto' />
       </div>
       <div>&nbsp;</div>
 
@@ -107,7 +108,7 @@ export default function Home() {
       <Section title='Visual' />
       <MyHomepage zeSection='Visual' />
 
-      <MyBentoBox />
+      <MyBentoBox zeSection='Visual' />
 
       </div>
       <div>&nbsp;</div>

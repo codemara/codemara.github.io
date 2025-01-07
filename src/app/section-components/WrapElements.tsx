@@ -27,7 +27,7 @@ export default function wrapElements(myProps:{typeElmt:string, strElmt:string, a
  
     //console.log("type:"+myProps.typeElmt);
     
-    let counter = 0;
+    //let counter = 0;
 
     switch (myProps.typeElmt) {
         case "p":

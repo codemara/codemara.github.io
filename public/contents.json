@@ -1,32 +1,35 @@
 {
     "Auto": {
-      "sup_title": "From growing to coding...",
+      "sup_title": "Python, arcpy, ArcGIS SDK",
       "title": "Automation",
-      "summary": "Python programming makes automation possible from GIS geoprocessing to greenhouse optimization.",
+      "summary": "For our final GIS Capstone project in partnership with FortisAlberta, we had the opportunity to push limits of our knowledge in the ArcGIS Python libraries to deliver real-time geoprocessed road conditions and weather-related data in a Web Mapping Application.",
       "img_href": "./GIS/automation-workflow.jpg",
       "content": [
-        {"type":"p","embed":"Agricultural technology should be built with farmers' skills in mind rather than trying to replace them. "},
         {"type":"list", "embed":[
-            {"icon":"","item":"Maximize Best Conditions","desc": "In food production, no amount of technology will replace best growing practices.  It is a great assisting tool in reaching optimized conditions." },
-            {"icon":"","item":"Flexibility & Customization","desc": "Automatic customization is great for well proven processes. But working with life is unpredictable and farmers need to have full manual control." },
-            {"icon":"","item":"Ownership and privacy of data","desc": "Why should the I.T. service providers also have their hands on a grower's hard earned data and statistics?" }
-            ]}
+            {"icon":"","item":"REST API","desc": "The raw data came from a variety of GeoJSON, non standard JSON APIs and RSS feeds. Our script automated all imports into Python Dictionaries on demand." },
+            {"icon":"","item":"Create geometries","desc": "All feeds were translated into geometries and/or attribute tables and saved into an ArcGIS Pro geodatabase." },
+            {"icon":"","item":"Geoprocessing","desc": "Operations on the raw data were included in the script to ensure the proper integration of data online. Performing data and attributes manipulation on the local machine before uploading the datasets online reduced the utilization of cloud and network resources for the geoprocessing." }
+            ]},
+        {"type":"p","embed":"My teamates in the Fall 2024 Capstone project with FortisAlberta were Shaina Kim and Kyle McMillan."}
       ]
     },
 
     "Visual": {
-        "sup_title": "The fabrics of I.T.",
+        "sup_title": "ArcGIS Pro, Illustrator, Figma",
         "title": "Visualization",
-        "summary": "Every projects start with a vision for the visuals and chances are the design will still be touched up on long after all modules are deployed.  Needless to say, frontend development is one of the most essential aspect of information technologies.",
+        "summary": "I have had graphic design training for a some years and studied cartography in a previous geography major. Illustrator and Figma are great icon creators and front-end development tools that complements ArcGIS Pro's cartographic capabilities.",
         "img_href": "./GIS/GEOS457-A1.jpg",
         "content": [     
-              {"type":"list", "embed":[
+          {"type":"p","embed":"My first example of Data Visualization presents the spatial distribution and analysis of a single variable across Californian counties. It was prepared for the course GEOS457: Cartography and Geovisualization to showcase a thematic map layout for the US state of California. The selected topic is Cropland efficiency at the county level."},
+          {"type":"p","embed":"Two statistics are used to achieve a measurable Cropland Production Efficiency variable. The first is the area of Total Cropland available by counties and measured in acres. The second is the market value of agricultural Products Sold by the county in 2022 and reported in 1000$. With a simple ratio calculation, we achieve an Efficiency variable shown in US Dollars ($) of Products Sold / Acre of Cropland available."},
+          
+          {"type":"list", "embed":[
               {"icon":"","item":"ArcGIS Pro","desc":"Great cartographic capabilities"},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
               {"icon":"","item":"React/Next.js","desc":"Modern Web saves precious resources and contributes to a more optimized experience for all."}
               ]},
               {"type":"sub_title","embed":"Cartography Tutorial"},
-          {"type":"p","embed":"Check out the challenges overcome in the cartography class:"},
+          {"type":"p","embed":"Other challenges overcome in the cartography class:"},
           {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_1.pdf"},
           {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_3.pdf"},
           {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_4.pdf"},
@@ -41,7 +44,7 @@
         "sup_title": "The Quest for excellent datasets",
         "title": "Data Capture",
         "summary": "Good Data Capture and Management are the backbones of any grand GIS or I.T. project",
-        "img_href": "./GIS/GEOS451-A3.jpg",
+        "img_href": "./GIS/GEOS410-A1.jpg",
         "content": [
           {"type":"list", "embed":[
               {"icon":"","item":"SQL/NoSQL Databases","desc":"..."},
