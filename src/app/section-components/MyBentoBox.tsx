@@ -27,7 +27,7 @@ const boxAuto = [
     {
       id: 4,
       name: 'Greenhouse automation',
-      href: './GIS/GEOS410-A1.jpg',
+      href: 'http://www.vertiponic.com',
       sub: 'Vertiponic',
       imageSrc: './GIS/GEOS410-A1.jpg',
       imageAlt: '',
@@ -61,7 +61,7 @@ const boxAuto = [
     },
     {
       id: 4,
-      name: 'Ecological Assessment at Highfield Farm',
+      name: 'Land Classification',
       href: './GIS/GEOS451-A3.jpg',
       sub: 'GEOS451: Data Capture II',
       imageSrc: './GIS/GEOS451-A3.jpg',
