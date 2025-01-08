@@ -11,17 +11,17 @@ const boxAuto = [
     {
       id: 2,
       name: 'Coderun demonstration',
-      href: './GIS/GEOS459-WebMap.jpg',
+      href: './GIS/GEOS459-Coderun.jpg',
       sub: 'GEOS459: GIS Capstone',
-      imageSrc: '/GIS/GEOS459-WebMap.jpg',
+      imageSrc: '/GIS/GEOS459-Coderun.jpg',
       imageAlt: '',
     },
     {
       id: 3,
-      name: 'Code Source',
-      href: 'https://www.github.com',
-      sub: 'GEOS459: GIS Capstone',
-      imageSrc: './GIS/GEOS459-WebMap.jpg',
+      name: 'Optimal Corridors',
+      href: './GIS/GEOS456-Final.jpg',
+      sub: 'GEOS456: GIS Programming',
+      imageSrc: './GIS/GEOS456-Final.jpg',
       imageAlt: '',
     },
     {
@@ -29,7 +29,7 @@ const boxAuto = [
       name: 'Greenhouse automation',
       href: 'http://www.vertiponic.com',
       sub: 'Vertiponic',
-      imageSrc: './GIS/GEOS410-A1.jpg',
+      imageSrc: './GIS/vertiponic.jpg',
       imageAlt: '',
     }
   ]
@@ -69,11 +69,46 @@ const boxAuto = [
     },
     // More products...
   ]
+  const boxAnalysis = [
+    {
+      id: 1,
+      name: 'Surface Modelling',
+      href: './GIS/GEOS409-A4.jpg',
+      sub: 'GEOS409: GIS Data Capture I',
+      imageSrc: './GIS/GEOS409-A4.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 2,
+      name: 'Red-Edge NDVI and reclassification',
+      href: './GIS/GEOS459-ImageAnalysis.jpg',
+      sub: 'GEOS459: GIS Capstone',
+      imageSrc: './GIS/GEOS459-ImageAnalysis.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 3,
+      name: 'Hotspot Analysis',
+      href: './GIS/GEOS419-Final.jpg',
+      sub: 'GEOS419: GIS Data Analysis',
+      imageSrc: './GIS/GEOS419-Final.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 4,
+      name: 'Geospatial Weighted Regression',
+      href: './GIS/GEOS419-GWS.jpg',
+      sub: 'GEOS419: GIS Data Analysis',
+      imageSrc: './GIS/GEOS419-GWS.jpg',
+      imageAlt: '',
+    },
+    // More products...
+  ]
   interface ObjSection {
     [key: string]: any; 
     }
 
-  const objSection:ObjSection = {"Auto": boxAuto, "Visual": boxVisual}
+  const objSection:ObjSection = {"Auto": boxAuto, "Visual": boxVisual,"Analysis": boxAnalysis}
 
   export default function MyBentoBox(myProps: { zeSection: string }) {
 

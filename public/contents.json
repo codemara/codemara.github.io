@@ -44,26 +44,26 @@
         "sup_title": "The Quest for excellent datasets",
         "title": "Data Capture",
         "summary": "Good Data Capture and Management are the backbones of any grand GIS or I.T. project",
-        "img_href": "./GIS/GEOS410-A1.jpg",
+        "img_href": "./GIS/GEOS450-A1.jpg",
         "content": [
+          {"type":"p","embed":"This Web GIS Assignment is a Web Map and Story Map adaptation of my Final Project presented to Carina Butterworth for the class GEOS 409: Data Capture I during the Spring 2024 semester. It focuses on mapping conservation efforts and potentials at Highfield Regenerative Farm to help solidify the ecological value of the urban agriculture project before city stakeholders. "},
           {"type":"list", "embed":[
-              {"icon":"","item":"SQL/NoSQL Databases","desc":"..."},
-              {"icon":"","item":"Aerial Imagery","desc":"..."},
-              {"icon":"","item":"Digitization and mobile collection","desc":"..."}
+              {"icon":"","item":"Aerial Imagery","desc":"LandSat8, Planet, Lidar"},
+              {"icon":"","item":"Digitization and mobile collection","desc":"FieldMap, QuickCapture, Survey123"}
               ]}
         ]
       },
 
       "Analysis": {
-        "sup_title": "Telling stories",
+        "sup_title": "Uniting data and results",
         "title": "Spatial Analysis",
-        "summary": "As complex as humanity itself, marketing goes beyond the digital world. Strategies must consider many facets of any given business.",
-        "img_href": "./GIS/GEOS419-Final.jpg",
+        "summary": "This is the final project for GIS Data Capture II and it presents the results of a Difference Normalized Burn Ratio (dNBR) analysis of the Blackrock Mountain 2020 wildfire.",
+        "img_href": "./GIS/GEOS451-Final.jpg ",
         "content": [
-          {"type":"p","embed":"Nowadays, an integrated marketing strategies include digital products.  There is no one fit solution model and context and content matters above all."},
+          {"type":"p","embed":""},
           {"type":"list", "embed":[
-              {"icon":"","item":"Content writing","desc":"Artificial intelligence is a great general content writing tool but nothing replaces expertise and human reflexions to give the most relevant information."},
-              {"icon":"","item":"SEO & Geotargeting","desc":"Search engines are the most useful tools to reach an audience with a need but competition is fierce.  Having a well optimized and referenced Website coupled with a local strategy will go a long way."}
+              {"icon":"","item":"Image Analysis","desc":"Indices, NDVI, dNBR, Neighbouring functions, Reclassification, Optimal routes and more"},
+              {"icon":"","item":"Data Analysis","desc":"Hotspot Analysis, Regression Analysis(R2), Clusters & Outliers"}
               ]}
         ]
       },
@@ -87,7 +87,7 @@
       },
 
       "Market": {
-        "sup_title": "Uniting data and results",
+        "sup_title": "Telling stories",
         "title": "Marketing",
         "summary": "I take care of the means but what truly matters is always the result.",
         "img_href": "./beams.jpg",
