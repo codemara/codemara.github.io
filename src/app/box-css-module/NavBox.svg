@@ -68,14 +68,19 @@ fill="currentColor" data-node-id="box-global" >
 
 
 <g id="svg_label">
-<rect width="204" height="63" rx="8"  x="230" y="430" fill="white" fill-opacity="0.5"/>
-
-<text fill="#11181C" xml:space="preserve" style="white-space: pre" font-size="21" letter-spacing="0em"><tspan x="247" y="458.2852">Noemi Desmarais</tspan></text>
-<text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="243" y="475.6016">GIS Student and Developer</tspan></text>
+  <rect width="244" height="72" rx="8"  x="210" y="420" fill="white" fill-opacity="0.5"/>
+  <a xlink:href="/noemidesmarais_profile.jpg">
+    <image href="/noemidesmarais_profile.jpg" width="50" height="50" x='220' y='430' className='invert'/>
+  </a> 
+  <text fill="#11181C" xml:space="preserve" style="white-space: pre; font: bold 1.2em sans-serif;" letter-spacing="0em"><tspan x="277" y="454.2852">Noemi Desmarais</tspan></text>
+  <text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="277" y="471.6016">GIS Student &amp; Developer</tspan></text>
 </g>
 
 
 <defs>
+  <pattern id="patternprofile" patternContentUnits="objectBoundingBox" width="1" height="1">
+    <image href="/noemidesmarais.jpg" transform="matrix(0 0 0 0 0 0)"/>
+  </pattern>
 
   <pattern id="patternfield" patternContentUnits="objectBoundingBox" width="1" height="1">
     <image href="/GIS/GEOS457-A1.jpg" transform="matrix(0.000967691 0 0 0.000848503 -0.1 -0.2)"/>

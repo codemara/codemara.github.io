@@ -112,16 +112,17 @@ export default function MyHeader() {
                                 <figcaption className="flex items-center justify-center ">
 
                                     <Image
-                                          src="/noemidesmarais.jpg"
-                                          className="rounded-full w-9 h-9" 
+                                          src="/noemidesmarais_profile.jpg"
+                                          className="rounded-full w-36 h-36" 
                                           width={171}
                                           height={171}
                                           alt="Noemi Desmarais"
                                         />
 
-                                    <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                    <div className="space-y-1 font-medium dark:text-white text-left rtl:text-right ms-3">
                                         <div>Noemi Desmarais</div>
-                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS Student and Developer in Calgary</div>
+                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS Student & Developer</div>
+                                        <div className="text-sm font-light text-gray-500 dark:text-gray-400 ">Calgary, Canada</div>
                                     </div>
                                 </figcaption>    
                             </figure>

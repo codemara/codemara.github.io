@@ -76,13 +76,11 @@
         "content": [
           {"type":"p","embed":"Mobile development is an exciting market with so much opportunities.  It is a new skill for me but I am committed to push it to its full potential with every new projects that comes my way."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK."},
-              {"icon":"","item":"Iphone Apps","desc":"Iphones are almost 60% of the U.S. market. I am yet to take on the challenge of developing for the Apple Store but I can develop for cross-platform in React Native."},
+              {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK. But with React Native I can also do cross-platform web applications."},
               {"icon":"","item":"Node.js","desc":"Has become the favorite standard to support content-driven website and applications.  It allows to run JavaScript on servers and possibilites are wide and wild."},
               {"icon":"","item":"Microservices/REST API","desc":"To share data accross different domains, pages, applications and more"},
               {"icon":"","item":"Java/Spring","desc":"Still a robust solutions for complex applications such as back offices and more"}
-              ]}, 
-          {"type":"p","embed":"I have a strong capacity to learn programming languages very fast.  It is only a matter of time until I dive into Swift and Kotlin or into frameworks like Unity."}
+              ]}
         ]
       },
 
