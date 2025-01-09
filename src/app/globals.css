@@ -67,3 +67,12 @@ html {
     visibility: visible;
   }
 }
+
+.text-skyblue {
+  --tw-text-opacity: 1;
+  color: rgb(0 191 255 / var(--tw-text-opacity));
+}
+.text-cornflowerblue {
+  --tw-text-opacity: 1;
+  color: rgb(100 149 237 / var(--tw-text-opacity));
+}

@@ -13,7 +13,7 @@ const Listelmt = (myProps: { zeList: customList }) => {
 
        return (
             <li className="flex gap-x-3">
-            <GiCircuitry className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+            <GiCircuitry className="mt-1 h-5 w-5 flex-none text-skyblue" aria-hidden="true" />
             <span>
               <strong className="font-semibold text-gray-900">{myProps.zeList.item}&nbsp;&nbsp;</strong> 
               {myProps.zeList.desc}
@@ -38,7 +38,7 @@ export default function wrapElements(myProps:{typeElmt:string, strElmt:string, a
 
         case "a":
             return (
-                <p><a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a></p>
+                <p><a className="font-medium text-cornflowerblue hover:text-skyblue" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a></p>
             )
 
         case "sub-title":

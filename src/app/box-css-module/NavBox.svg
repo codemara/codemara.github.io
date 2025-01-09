@@ -63,17 +63,16 @@ fill="currentColor" data-node-id="box-global" >
 
 <path data-node-id="box-main" d="M168 289.573L332.411 193.159L496.822 289.573L496.822 477.926L332.001 574.341L168 477.928V289.573Z" fill="url(#maingradient)" stroke="white" stroke-width="2"/>
 
- <image href="/codemara.svg" x='175' y='300' className='invert'/>
+ <image href="/codemara.svg" x='175' y='299' className='invert'/>
 
 
 
 <g id="svg_label">
-  <rect width="244" height="72" rx="8"  x="210" y="420" fill="white" fill-opacity="0.5"/>
-  <a xlink:href="/noemidesmarais_profile.jpg">
+
+    <rect width="244" height="72" rx="8"  x="210" y="420" fill="white" fill-opacity="0.5"/> 
     <image href="/noemidesmarais_profile.jpg" width="50" height="50" x='220' y='430' className='invert'/>
-  </a> 
-  <text fill="#11181C" xml:space="preserve" style="white-space: pre; font: bold 1.2em sans-serif;" letter-spacing="0em"><tspan x="277" y="454.2852">Noemi Desmarais</tspan></text>
-  <text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="277" y="471.6016">GIS Student &amp; Developer</tspan></text>
+    <text fill="#11181C" xml:space="preserve" style="white-space: pre; font: bold 1.2em sans-serif;" letter-spacing="0em"><tspan x="280" y="454.2852">Noemi Desmarais</tspan></text>
+    <text fill="#71717A" xml:space="preserve" style="white-space: pre" font-size="14" letter-spacing="0em"><tspan x="280" y="471.6016">GIS Student &amp; Developer</tspan></text>
 </g>
 
 

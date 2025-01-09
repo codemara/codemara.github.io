@@ -57,7 +57,7 @@ const Section = (myProps: { title: string }) => {
      if (mySectionNav.length > 0) {
       for (let x = 0; x < mySectionNav.length; x++ ) {
         let condition = '#'+myProps.title == mySectionNav[x].getAttribute('href')
-        let classCurrent = (condition) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
+        let classCurrent = (condition) ? 'bg-gray-900 text-white section-nav rounded-md px-3 py-2 text-sm font-medium' : 'text-gray-400 hover:bg-gray-700 hover:text-white section-nav rounded-md px-3 py-2 text-sm font-medium'      
         mySectionNav[x].setAttribute('class', classCurrent)
         global.cSection = myProps.title;
       }

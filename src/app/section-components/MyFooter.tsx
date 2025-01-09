@@ -12,16 +12,16 @@ export default function MyFooter() {
 
                     <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                         <a href="tel:5142434627"
-                            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 "
+                            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100  dark:text-gray-300"
                         >
-                            <AiOutlinePhone className="h-5 w-5 flex-none text-gray-400 hover:text-gray-900 " aria-hidden="true" />
+                            <AiOutlinePhone className="h-5 w-5 flex-none text-gray-400 hover:text-gray-900 dark:text-gray-300" aria-hidden="true" />
                             (514) 243-4627
                         </a>
 
                         <a href="http://www.github.com/codemara"
-                            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 "
+                            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100  dark:text-gray-300"
                         >
-                            <AiFillGithub className="h-5 w-5 flex-none text-gray-400 hover:text-gray-900 " aria-hidden="true" />
+                            <AiFillGithub className="h-5 w-5 flex-none text-gray-400 hover:text-gray-900  dark:text-gray-300" aria-hidden="true" />
                             @codemara
                         </a>
 

@@ -16,6 +16,7 @@ const navigation = [
 
 const callsToAction = [
     { name: 'GitHub', href: 'https://github.com/codemara/', icon: AiFillGithub },
+    {name: 'Resume', href: './GIS/PDF/NDesmarais_resume2024.pdf', icon: AiFillGithub },
     { name: 'Call', href: 'tel:15142434627', icon: AiOutlinePhone },
   ]
 
@@ -69,7 +70,7 @@ export default function MyHeader() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          checkCurrent(index) ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          checkCurrent(index) ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium section-nav'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -103,11 +104,18 @@ export default function MyHeader() {
                         <Popover.Panel className="absolute -right-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                             <div className="p-4">
                             
+                            {/* Mobile menu button*/}
+                        <Popover.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                          <span className="absolute -inset-0.5" />
+                          <span className="sr-only">Close contact menu</span>
+                          <AiOutlineClose className="block h-6 w-6" aria-hidden="true" />
+                          
+                        </Popover.Button>
                             
                             <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                                <blockquote className="max-w-2xl mx-auto mb-4 text-gray-600 lg:mb-8 dark:text-gray-400">
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Welcome to codeMARA</h3>
-                                    <p className="my-4">Bitter sweet coding</p>
+                                    <div className="my-4">Bitter sweet coding</div>
                                 </blockquote>
                                 <figcaption className="flex items-center justify-center ">
 
@@ -129,7 +137,7 @@ export default function MyHeader() {
 
 
                             </div>
-                            <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                            <div className="grid grid-cols-3 divide-x divide-gray-900/5 bg-gray-50">
                             {callsToAction.map((item) => (
                                 <a
                                 key={item.name}
@@ -158,7 +166,7 @@ export default function MyHeader() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    checkCurrent(index) ? 'bg-gray-900 text-white section-nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white section-nav',
+                    checkCurrent(index) ? 'bg-gray-900 text-white section-nav' : 'text-gray-600 hover:bg-gray-700 hover:text-white section-nav',
                     'block rounded-md px-3 py-2 text-base font-medium section-nav'
                   )}
                   aria-current={item.current ? 'page' : undefined}
