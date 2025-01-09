@@ -30,8 +30,8 @@ const Localcontent = (myProps: { zecontent : Array<ObjContent> } ) => {
   for (counter; counter < myProps.zecontent.length;counter++){
     let item = myProps.zecontent[counter];
     typelm = item.type;
-    strlm = (item.type != 'list') ? item.embed + "" : ""
-    arrlm = (item.type+"" == 'list') ? item.embed : new Array<customList>
+    strlm = (item.type != 'list')&&(item.type != 'a') ? item.embed + "" : ""
+    arrlm = (item.type+"" == 'list')||(item.type == 'a') ? item.embed : new Array<customList>
     
     myLocalJSX.push(<WrapElements typeElmt={typelm} strElmt={strlm} arrElmt={arrlm} counter={counter}  />)
    

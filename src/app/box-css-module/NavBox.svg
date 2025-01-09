@@ -68,7 +68,6 @@ fill="currentColor" data-node-id="box-global" >
 
 
 <g id="svg_label">
-
     <rect width="244" height="72" rx="8"  x="210" y="420" fill="white" fill-opacity="0.5"/> 
     <image href="/noemidesmarais_profile.jpg" width="50" height="50" x='220' y='430' className='invert'/>
     <text fill="#11181C" xml:space="preserve" style="white-space: pre; font: bold 1.2em sans-serif;" letter-spacing="0em"><tspan x="280" y="454.2852">Noemi Desmarais</tspan></text>

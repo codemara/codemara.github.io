@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Popover, Transition } from '@headlessui/react'
-import { Bars3Icon } from '@heroicons/react/24/outline'
+import { Bars3Icon, DocumentIcon } from '@heroicons/react/24/outline'
 import { AiFillGithub, AiOutlineClose, AiOutlinePhone } from "react-icons/ai";
 
 import Image from 'next/image'
@@ -16,7 +16,7 @@ const navigation = [
 
 const callsToAction = [
     { name: 'GitHub', href: 'https://github.com/codemara/', icon: AiFillGithub },
-    {name: 'Resume', href: './GIS/PDF/NDesmarais_resume2024.pdf', icon: AiFillGithub },
+    {name: 'Resume', href: './GIS/PDF/NDesmarais_resume2024.pdf', icon: DocumentIcon },
     { name: 'Call', href: 'tel:15142434627', icon: AiOutlinePhone },
   ]
 
@@ -104,7 +104,7 @@ export default function MyHeader() {
                         <Popover.Panel className="absolute -right-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                             <div className="p-4">
                             
-                            {/* Mobile menu button*/}
+                            {/* Contact Popover button*/}
                         <Popover.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                           <span className="absolute -inset-0.5" />
                           <span className="sr-only">Close contact menu</span>

@@ -22,6 +22,12 @@ const Listelmt = (myProps: { zeList: customList }) => {
           )
           
 }
+const Almt = (myProps: { zeList: customList }) => {
+    return (
+        <a className="font-medium text-cornflowerblue hover:text-skyblue" href={myProps.zeList.item} >{myProps.zeList.desc}</a>
+       )
+       
+}
 
 export default function wrapElements(myProps:{typeElmt:string, strElmt:string, arrElmt:Array<customList>, counter:number}){
  
@@ -38,7 +44,7 @@ export default function wrapElements(myProps:{typeElmt:string, strElmt:string, a
 
         case "a":
             return (
-                <p><a className="font-medium text-cornflowerblue hover:text-skyblue" href={'http://'+myProps.strElmt} >{myProps.strElmt}</a></p>
+                <p>{ myProps.arrElmt.map((zelist) => ( <Almt key={myProps.counter} zeList={zelist} /> ))}</p>
             )
 
         case "sub-title":

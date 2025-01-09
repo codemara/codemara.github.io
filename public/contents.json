@@ -30,13 +30,13 @@
               ]},
               {"type":"sub_title","embed":"Cartography Tutorial"},
           {"type":"p","embed":"Other challenges overcome in the cartography class:"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_1.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_3.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_4.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_6.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_7.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_8.pdf"},
-          {"type":"a","embed":"www.codemara.com/GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_9.pdf"}
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_1.pdf","desc":"Tutorial 1: Choropleth Map"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_3.pdf","desc":"Tutorial 3: Graduated Symbols"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_4.pdf","desc":"Tutorial 4: Proportional Charts"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_6.pdf","desc":"Tutorial 6: Histogram Legend"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_7.pdf","desc":"Tutorial 7: Bivariate Map"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_8.pdf","desc":"Tutorial 8: 2D and 3D Representations"}]},
+          {"type":"a","embed":[{"icon":"","item":"./GIS/PDF/Desmarais_Noemi_GEOS457_Tutorial_9.pdf","desc":"Tutorial 9: Dot density"}]}
         ]
       },
 
