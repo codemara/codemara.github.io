@@ -72,10 +72,10 @@ const boxAuto = [
   const boxAnalysis = [
     {
       id: 1,
-      name: 'Surface Modelling',
-      href: './GIS/GEOS409-A4.jpg',
-      sub: 'GEOS409: GIS Data Capture I',
-      imageSrc: './GIS/GEOS409-A4.jpg',
+      name: 'Difference Normalized Burn Ratio',
+      href: './GIS/GEOS451-dNBR.jpg',
+      sub: 'GEOS451: GIS Data Capture II',
+      imageSrc: './GIS/GEOS451-dNBR.jpg',
       imageAlt: '',
     },
     {
@@ -104,11 +104,49 @@ const boxAuto = [
     },
     // More products...
   ]
+  const boxDataC = [
+
+    {
+      id: 1,
+      name: 'Field Map Data Collection',
+      href: './GIS/GEOS409-Mobile.jpg',
+      sub: 'GEOS409: GIS Data Capture I',
+      imageSrc: './GIS/GEOS409-Mobile.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 2,
+      name: 'NDVI from Aerial Imagery',
+      href: './GIS/GEOS410-HighfieldNDVI.jpg',
+      sub: 'GEOS409: GIS Data Capture I',
+      imageSrc: './GIS/GEOS409-HighfieldNDVI.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 3,
+      name: 'Story Map: Assessing Ecological Value at a Calgary Urban Farm',
+      href: 'https://storymaps.arcgis.com/stories/1a44900dfba847f7ac0b6474e355130d',
+      sub: 'GEOS450: Entreprise and Web GIS',
+      imageSrc: './GIS/GEOS450-StoryMap.jpg',
+      imageAlt: '',
+    },
+    {
+      id: 4,
+      name: 'Surface Modelling',
+      href: './GIS/GEOS409-A4.jpg',
+      sub: 'GEOS409: GIS Data Capture I',
+      imageSrc: './GIS/GEOS409-A4.jpg',
+      imageAlt: '',
+    }
+    // More products...
+  ]
+
+
   interface ObjSection {
     [key: string]: any; 
     }
 
-  const objSection:ObjSection = {"Auto": boxAuto, "Visual": boxVisual,"Analysis": boxAnalysis}
+  const objSection:ObjSection = {"Auto": boxAuto, "Visual": boxVisual, "DataC": boxDataC,"Analysis": boxAnalysis}
 
   export default function MyBentoBox(myProps: { zeSection: string }) {
 

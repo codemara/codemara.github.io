@@ -116,6 +116,7 @@ export default function Home() {
       <div id='DataC' className="relative">
       <Section title='DataC' />
       <MyHomepage zeSection='DataC' />
+      <MyBentoBox zeSection='DataC' />
       </div>
       <div>&nbsp;</div>
    
