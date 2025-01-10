@@ -26,7 +26,7 @@
           {"type":"list", "embed":[
               {"icon":"","item":"ArcGIS Pro","desc":"Great cartographic capabilities"},
               {"icon":"","item":"Figma & Illustrator","desc":"Putting together working templates will save significant cost in development later and make easier the client/specialist back and forth."},
-              {"icon":"","item":"React/Next.js","desc":"Modern Web saves precious resources and contributes to a more optimized experience for all."}
+              {"icon":"","item":"Html/CSS","desc":"Modern Web saves precious resources and contributes to a more optimized experience for all."}
               ]},
               {"type":"sub_title","embed":"Cartography Tutorial"},
           {"type":"p","embed":"Other challenges overcome in the cartography class:"},
@@ -75,9 +75,10 @@
         "summary": "A good addition to a digital strategy, mobile applications and web development allow businesses to stay in the reach of their users at all time.",
         "img_href": "./built.png",
         "content": [
-          {"type":"p","embed":"Mobile development is an exciting market with so much opportunities.  It is a new skill for me but I am committed to push it to its full potential with every new projects that comes my way."},
+          {"type":"p","embed":"Mobile development is an exciting market with so much opportunities."},
           {"type":"list", "embed":[
               {"icon":"","item":"Android apps","desc":"Android phones are 70% of the global market.  My first mobile apps were built with Java for Android SDK. But with React Native I can also do cross-platform web applications."},
+              {"icon":"","item":"React/Next.js","desc":"This portfolio is built on Next.js in Typescript which is a framework based on React. Modern Web offers great flexibility and eases up development while speeding up content display."},
               {"icon":"","item":"Node.js","desc":"Has become the favorite standard to support content-driven website and applications.  It allows to run JavaScript on servers and possibilites are wide and wild."},
               {"icon":"","item":"Microservices/REST API","desc":"To share data accross different domains, pages, applications and more"},
               {"icon":"","item":"Java/Spring","desc":"Still a robust solutions for complex applications such as back offices and more"}
@@ -88,13 +89,15 @@
       "Market": {
         "sup_title": "Telling stories",
         "title": "Marketing",
-        "summary": "I take care of the means but what truly matters is always the result.",
+        "summary": "I have many years of experience in online marketing, from content writing to website optimizations all the way to digital campaigns creation. I worked both in communication teams for organizations and as freelance consultant for various clients such as real estate agents, university lecturers and more. ",
         "img_href": "./beams.jpg",
         "content": [
           {"type":"p","embed":"Nowadays, an integrated marketing strategies include digital products.  There is no one fit solution model and context and content matters above all."},
           {"type":"list", "embed":[
-              {"icon":"","item":"Content writing","desc":"Artificial intelligence is a great general content writing tool but nothing replaces expertise and human reflexions to give the most relevant information."},
-              {"icon":"","item":"SEO & Geotargeting","desc":"Search engines are the most useful tools to reach an audience with a need but competition is fierce.  Having a well optimized and referenced Website coupled with a local strategy will go a long way."}
+              {"icon":"","item":"Content writing","desc":"Technical writing, Reports, Marketing emails, Social Media Posts, Blog writing, Website content."},
+              {"icon":"","item":"SEO & Geotargeting","desc":"Search engines are the most useful tools to reach an audience with a need but competition is fierce.  Having a well optimized and referenced Website coupled with a local strategy will go a long way to increase organic referencing."},
+              {"icon":"","item":"Photography","desc":"A picture is worth a thousand words and I have a history of creating visual campaigns with original photos. I snapped all the photos used for the projects displayed on this portfolio."}
+              
               ]}
         ]
       }
