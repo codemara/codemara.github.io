@@ -127,7 +127,7 @@ const boxAuto = [
       name: 'Story Map: Assessing Ecological Value at a Calgary Urban Farm',
       href: 'https://storymaps.arcgis.com/stories/1a44900dfba847f7ac0b6474e355130d',
       sub: 'GEOS450: Entreprise and Web GIS',
-      imageSrc: './GIS/GEOS450-StoryMap.jpg',
+      imageSrc: './GIS/GEOS450-Storymap.jpg',
       imageAlt: '',
     },
     {
