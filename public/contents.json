@@ -43,12 +43,12 @@
       "DataC": {
         "sup_title": "The Quest for excellent datasets",
         "title": "Data Capture",
-        "summary": "Good Data Capture and Management are the backbones of any grand GIS or I.T. project",
+        "summary": "The BGIS program contains two Data Capture classes with one covering vector data sources and capture techniques such as digitization, georeferencing, mobile capture and the other covering aerial imagery digging into raster image theories and manipulation techniques.",
         "img_href": "./GIS/GEOS450-A1.jpg",
         "content": [
           {"type":"p","embed":"This Web GIS Assignment is a Web Map and Story Map adaptation of my Final Project presented to Carina Butterworth for the class GEOS 409: Data Capture I during the Spring 2024 semester. It focuses on mapping conservation efforts and potentials at Highfield Regenerative Farm to help solidify the ecological value of the urban agriculture project before city stakeholders. "},
           {"type":"list", "embed":[
-              {"icon":"","item":"Aerial Imagery","desc":"LandSat8, Planet, Lidar"},
+              {"icon":"","item":"Aerial Imagery","desc":"LandSat8, Planet, LiDAR"},
               {"icon":"","item":"Digitization and mobile collection","desc":"FieldMap, QuickCapture, Survey123"}
               ]}
         ]
@@ -57,10 +57,11 @@
       "Analysis": {
         "sup_title": "Uniting data and results",
         "title": "Spatial Analysis",
-        "summary": "This is the final project for GIS Data Capture II and it presents the results of a Difference Normalized Burn Ratio (dNBR) analysis of the Blackrock Mountain 2020 wildfire.",
+        "summary": "Geospatial Analysis topics were covered across most classes but the GIS Data Analysis course focused on statistics and correlation methods and Data Capture II course covered raster image analysis.",
         "img_href": "./GIS/GEOS451-Final.jpg ",
         "content": [
-          {"type":"p","embed":""},
+          {"type":"p","embed":"This is the final project for GIS Data Capture II and it presents the results of a Difference Normalized Burn Ratio (dNBR) analysis of the Blackrock Mountain 2020 wildfire."},
+          {"type":"p","embed":"The dNBR calculation helps determine where and how severe a wildfire event occurred by relying on the spectral difference between NIR and SWIR in burnt areas compared to the state of vegetation prior to the wildfire. "},
           {"type":"list", "embed":[
               {"icon":"","item":"Image Analysis","desc":"Indices, NDVI, dNBR, Neighbouring functions, Reclassification, Optimal routes and more"},
               {"icon":"","item":"Data Analysis","desc":"Hotspot Analysis, Regression Analysis(R2), Clusters & Outliers"}

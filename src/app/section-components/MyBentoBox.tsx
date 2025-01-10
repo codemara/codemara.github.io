@@ -118,7 +118,7 @@ const boxAuto = [
       id: 2,
       name: 'NDVI from Aerial Imagery',
       href: './GIS/GEOS409-HighfieldNDVI.jpg',
-      sub: 'GEOS409: GIS Data Capture I',
+      sub: 'GEOS450: Entreprise and Web GIS',
       imageSrc: './GIS/GEOS409-HighfieldNDVI.jpg',
       imageAlt: '',
     },
