@@ -6,7 +6,7 @@
 
 
 .oceanBreeze [data-node-id="box-field"] {
-    fill: DeepSkyBlue;
+    fill: rgb(0, 191, 255);
   }
   
   .oceanBreeze [data-node-id="box-field"]:hover  {
@@ -50,7 +50,7 @@
     transition-duration: 300ms;
   }
   .oceanBreeze [data-node-id="box-final"] {
-    fill: CornflowerBlue;
+    fill: rgb(100, 149, 237);
   }
   .oceanBreeze [data-node-id="box-final"]:hover {
     transform: translate(-20px, -10px);

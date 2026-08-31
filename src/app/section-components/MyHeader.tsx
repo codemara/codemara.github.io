@@ -16,8 +16,8 @@ const navigation = [
 
 const callsToAction = [
     { name: 'GitHub', href: 'https://github.com/codemara/', icon: AiFillGithub },
-    {name: 'Resume', href: './GIS/PDF/NDesmarais_resume2024.pdf', icon: DocumentIcon },
-    { name: 'Call', href: 'tel:15142434627', icon: AiOutlinePhone },
+    {name: 'Resume', href: './GIS/PDF/NDesmarais_resume2026.pdf', icon: DocumentIcon },
+    { name: 'Call', href: 'tel:18258834627', icon: AiOutlinePhone },
   ]
 
 function classNames(...classes:string[]) {
@@ -129,7 +129,7 @@ export default function MyHeader() {
 
                                     <div className="space-y-1 font-medium dark:text-white text-left rtl:text-right ms-3">
                                         <div>Noemi Desmarais</div>
-                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS Student & Developer</div>
+                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS & Web Developer</div>
                                         <div className="text-sm font-light text-gray-500 dark:text-gray-400 ">Calgary, Canada</div>
                                     </div>
                                 </figcaption>    
