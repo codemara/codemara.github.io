@@ -37,7 +37,7 @@ if (typeof document !== 'undefined') {
         }
       }    
     }
-  } 
+  }
 
   return (
     <div id="anchor" ref={myRef} >

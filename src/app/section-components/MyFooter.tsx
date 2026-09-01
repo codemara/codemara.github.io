@@ -1,7 +1,7 @@
 import { AiOutlinePhone, AiFillGithub } from "react-icons/ai";
 
 
-export default function MyFooter() {
+export default function MyFooter() { 
    
     return (
         <><footer className="bg-gray-100 dark:bg-gray-700">
