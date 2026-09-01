@@ -129,7 +129,7 @@ export default function MyHeader() {
 
                                     <div className="space-y-1 font-medium dark:text-white text-left rtl:text-right ms-3">
                                         <div>Noemi Desmarais</div>
-                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS & Web Developer</div>
+                                        <div className="text-sm text-gray-500 dark:text-gray-400 ">GIS &amp; Web Developer</div>
                                         <div className="text-sm font-light text-gray-500 dark:text-gray-400 ">Calgary, Canada</div>
                                     </div>
                                 </figcaption>    

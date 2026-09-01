@@ -15,7 +15,7 @@ export default function MyFooter() {
                             className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100  dark:text-gray-300"
                         >
                             <AiOutlinePhone className="h-5 w-5 flex-none text-gray-400 hover:text-gray-900 dark:text-gray-300" aria-hidden="true" />
-                            (825) 883-4627
+                            (825)883-4627
                         </a>
 
                         <a href="http://www.github.com/codemara"
